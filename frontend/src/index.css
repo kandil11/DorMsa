@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+/* ─── Custom Theme from Stitch Design System ──────────── */
+@theme {
+  /* Primary Green Palette */
+  --color-primary: #549648;
+  --color-primary-50: #f8fff0;
+  --color-primary-100: #adf59b;
+  --color-primary-200: #92d881;
+  --color-primary-300: #6ab35e;
+  --color-primary-400: #549648;
+  --color-primary-500: #428337;
+  --color-primary-600: #286921;
+  --color-primary-700: #0e530b;
+  --color-primary-800: #002200;
+  --color-primary-900: #191d17;
+
+  /* Secondary Blue Palette */
+  --color-secondary: #042b49;
+  --color-secondary-50: #ffffff;
+  --color-secondary-100: #d0e4ff;
+  --color-secondary-200: #aac9ef;
+  --color-secondary-300: #b8d7fd;
+  --color-secondary-400: #042b49;
+  --color-secondary-500: #426181;
+  --color-secondary-600: #3f5e7e;
+  --color-secondary-700: #294968;
+  --color-secondary-800: #001d35;
+  --color-secondary-900: #2d322b;
+
+  /* Surface & Background Colors */
+  --color-surface-lowest: #ffffff;
+  --color-surface-low: #f2f5eb;
+  --color-surface: #f7fbf0;
+  --color-surface-container: #ecefe5;
+  --color-surface-high: #e6e9df;
+  --color-surface-highest: #e0e4da;
+  --color-surface-dim: #d8dbd1;
+
+  /* Fonts */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Plus Jakarta Sans', system-ui, sans-serif;
+
+  /* Animations */
+  --animate-fade-in: fadeIn 0.5s ease-out;
+  --animate-slide-up: slideUp 0.5s ease-out;
+  --animate-slide-down: slideDown 0.3s ease-out;
+  --animate-scale-in: scaleIn 0.3s ease-out;
+  --animate-pulse-soft: pulseSoft 2s ease-in-out infinite;
+}
+
+/* ─── Keyframes ────────────────────────────────────────── */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes pulseSoft {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+/* ─── Base Styles ──────────────────────────────────────── */
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-surface);
+    color: var(--color-primary-900);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+
+  ::selection {
+    background-color: var(--color-primary-500);
+    color: white;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-surface-high);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: var(--color-primary-400);
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-primary-600);
+  }
+}
+
+/* ─── Utilities ────────────────────────────────────────── */
+@layer utilities {
+  .glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+  }
+
+  .glass-dark {
+    background: rgba(4, 43, 73, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, var(--color-primary-500) 0%, var(--color-secondary-500) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gradient-primary {
+    background: linear-gradient(135deg, var(--color-primary-400) 0%, var(--color-primary-600) 100%);
+  }
+
+  .gradient-secondary {
+    background: linear-gradient(135deg, var(--color-secondary-400) 0%, var(--color-secondary-600) 100%);
+  }
+
+  .gradient-hero {
+    background: linear-gradient(135deg, var(--color-secondary-400) 0%, var(--color-secondary-600) 40%, var(--color-primary-500) 100%);
+  }
+
+  .shadow-soft {
+    box-shadow: 0 4px 20px rgba(4, 43, 73, 0.05); /* Match Stitch ambient shadow */
+  }
+
+  .shadow-primary {
+    box-shadow: 0 4px 14px rgba(40, 105, 33, 0.3); /* Match Stitch primary shadow */
+  }
+
+  .shadow-card {
+    box-shadow: 0 2px 12px rgba(4, 43, 73, 0.04);
+  }
+
+  .skeleton {
+    background: linear-gradient(90deg, var(--color-surface-container) 25%, var(--color-surface-high) 50%, var(--color-surface-container) 75%);
+    background-size: 200% 100%;
+    animation: skeleton-loading 1.5s ease-in-out infinite;
+  }
+}
+
+@keyframes skeleton-loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
