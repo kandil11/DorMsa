@@ -58,13 +58,23 @@ app.use(errorHandler);
 // ─── Start Server ───────────────────────────────────────
 const PORT = process.env.PORT || 5001;
 
-connectDB().then(async () => {
+const startApp = async () => {
+  await connectDB();
   await connectListingsDB();
 
-  // FR36, FR47 — Start cron jobs after DB is ready
-  startCronJobs();
+  if (!process.env.VERCEL) {
+    // FR36, FR47 — Start cron jobs after DB is ready
+    startCronJobs();
 
-  app.listen(PORT, () => {
-    console.log(`🚀 DorMsa API running on port ${PORT}`);
-  });
+    app.listen(PORT, () => {
+      console.log(`🚀 DorMsa API running on port ${PORT}`);
+    });
+  }
+};
+
+startApp().catch(err => {
+  console.error('Failed to start application:', err);
 });
+
+export default app;
+
