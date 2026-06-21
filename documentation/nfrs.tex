@@ -1,0 +1,100 @@
+\item[\textbf{NFR01: Data Encryption} (Priority: Must)]\\
+All user names and phone numbers must be encrypted at rest using AES-256. Encryption applies to all personally identifiable fields stored in the database. AES-256 is the minimum accepted encryption standard. Unencrypted plaintext must never appear in database dumps or logs.
+\item[\textbf{NFR02: Anti-Scraping} (Priority: Must)]\\
+The system must implement protections to prevent automated data scraping. Bot detection mechanisms (e.g. rate limiting, CAPTCHA) are applied to public endpoints. Automated script access beyond defined thresholds is blocked with a 429 response.
+\item[\textbf{NFR03: Manual Verification} (Priority: Must)]\\
+Broker identities must be manually verified by an Admin before they can post listings. No listing creation is possible for any broker whose account is not Admin-approved. The verification process is carried out via the Broker Verification Panel (FR28).
+\item[\textbf{NFR04: Session Timeout} (Priority: Must)]\\
+User sessions shall automatically expire after 30 minutes of inactivity. Inactivity is defined as no user interaction within a 30-minute window. On expiry the session token is invalidated and the user is redirected to login.
+\item[\textbf{NFR05: PCI-DSS Compliance} (Priority: Must)]\\
+All deposit transactions must comply with PCI-DSS security standards. Credit card data must never touch local infrastructure; it is handled entirely by the payment gateway. The selected payment gateway must hold a valid PCI-DSS certification.
+\item[\textbf{NFR06: Access Control} (Priority: Must)]\\
+Only authorized Admin staff shall have access to the management dashboard. Non-admin session tokens are rejected when accessing admin-designated routes. Admin accounts are provisioned and managed separately from regular user registration.
+\item[\textbf{NFR07: Mobile-First Design} (Priority: Should)]\\
+The interface must be optimized for mobile devices and small screens. All layouts must render correctly at 320px minimum viewport width. No horizontal scrolling should appear at standard mobile breakpoints.
+\item[\textbf{NFR08: Registration Speed} (Priority: Must)]\\
+The registration process must be completable in under 30 seconds. Measured from first page load to OTP-verified account activation. Applies under normal network and server conditions.
+\item[\textbf{NFR09: Image Optimization} (Priority: Must)]\\
+Property images must be compressed and optimized for loading on slow mobile connections. Images are automatically resized and compressed on upload. Optimized images are served via a CDN where possible.
+\item[\textbf{NFR10: Page Load Time} (Priority: Must)]\\
+All search results must load within 2 seconds under normal conditions. Measured from user submission of search query to full result display. Applies under standard broadband network conditions and normal server load.
+\item[\textbf{NFR11: Intuitive Navigation} (Priority: Should)]\\
+Users should be able to find any listing within 3 clicks from the home page. Interaction depth from home page to a specific listing must not exceed 3 steps. Measured using a standard filter-and-select task flow.
+\item[\textbf{NFR12: WCAG Compliance} (Priority: Should)]\\
+The system should comply with WCAG 2.1 accessibility standards. Target conformance level: WCAG 2.1 Level AA. Applies to all public-facing interface views.
+\item[\textbf{NFR13: System Uptime} (Priority: Must)]\\
+The system must maintain 99.9\% uptime during peak months (September – November). Measured over each calendar month during the peak booking period. Planned maintenance windows must be scheduled outside peak periods.
+\item[\textbf{NFR14: Data Refresh Rate} (Priority: Must)]\\
+Search results must refresh immediately whenever a broker updates a listing. Cache invalidation is triggered on any listing save or availability toggle. Changes are visible to searching users within 1 second of the broker saving.
+\item[\textbf{NFR15: Backup Frequency} (Priority: Must)]\\
+System data must be backed up automatically every 24 hours. Backups are encrypted and stored in a separate cloud region. Backup success or failure generates an automated alert to the Admin.
+\item[\textbf{NFR16: Disaster Recovery} (Priority: Must)]\\
+The system must be restorable within 4 hours of a critical failure. Recovery Time Objective (RTO): 4 hours. Recovery procedure must be documented and regularly tested.
+\item[\textbf{NFR17: Concurrent Users} (Priority: Must)]\\
+The system must support at least 1,000 concurrent users without degradation. Load tests must demonstrate stability at 1,000 simultaneous sessions. Performance metrics (response time, error rate) must remain within defined thresholds under load.
+\item[\textbf{NFR18: Modular Architecture} (Priority: Must)]\\
+The system architecture must be modular to allow independent feature additions. Modules are loosely coupled with defined interfaces. Adding or replacing a module must not require changes to unrelated modules.
+\item[\textbf{NFR19: Scalable Storage} (Priority: Must)]\\
+Cloud image storage must scale automatically with no manual intervention required. Storage uses an auto-scaling cloud object store (e.g. AWS S3). No capacity cap warnings or manual provisioning are required during normal operation.
+\item[\textbf{NFR20: Tech Documentation} (Priority: Must)]\\
+All API endpoints and key system logic must be documented. API documentation is maintained in a standard format (e.g. OpenAPI / Swagger). Documentation is updated with every significant code change.
+\item[\textbf{NFR21: Cross-Browser Support} (Priority: Must)]\\
+The system must be compatible with Chrome, Safari, and Edge browsers. Applies to the two most recent stable releases of each target browser. UI layout and functionality must be consistent across all supported browsers.
+\item[\textbf{NFR22: Error Message Clarity} (Priority: Should)]\\
+Error messages must provide clear and actionable instructions for resolution. Validation failure states output descriptive user-friendly messages. Raw error codes or stack traces must never be exposed to end users.
+\item[\textbf{NFR23: Log Retention} (Priority: Could)]\\
+System logs must be retained for at least 90 days. Logs older than 90 days may be archived or deleted by automated routines. Retention policy applies to access logs, error logs, and audit logs.
+\item[\textbf{NFR24: Database Consistency} (Priority: Must)]\\
+The system must ensure ACID properties for all database transactions. All write operations involving financial data use ACID-compliant transactions. Aborted transactions roll back to their previous consistent state.
+\item[\textbf{NFR25: API Latency} (Priority: Could)]\\
+External API calls such as Google Maps must respond within 500 milliseconds. Timeout thresholds are configured on all external API integrations. Calls exceeding 500 ms are logged and trigger a graceful fallback.
+\item[\textbf{NFR26: Password Complexity} (Priority: Must)]\\
+The system must enforce strong password requirements. Minimum 8 characters. Must include at least one uppercase letter, one lowercase letter, and one digit. Trivial or common passwords are rejected at registration and reset.
+\item[\textbf{NFR27: Localization Support} (Priority: Could)]\\
+Date and time formats should be localized based on the user’s region settings. Date and time formats adapt to the user’s selected locale. Supported locales: Arabic (Egypt) and English (UK/US).
+\item[\textbf{NFR28: Input Sanitization} (Priority: Must)]\\
+All user inputs must be sanitized to prevent SQL injection and XSS attacks. Sanitization is applied server-side before any input reaches the database. Script element injections are escaped before hitting database operations.
+\item[\textbf{NFR29: Horizontal Scaling} (Priority: Should)]\\
+The system should support horizontal scaling across multiple servers. The application layer must be stateless to support horizontal scaling. A load balancer distributes traffic across available server nodes.
+\item[\textbf{NFR30: Code Versioning} (Priority: Must)]\\
+All system code must be maintained in a version control system using Git. All source code resides in a Git repository. Commit messages must follow a defined convention.
+\item[\textbf{NFR31: Network Throttling} (Priority: Should)]\\
+The system must handle network throttling gracefully on mobile devices. Progressive loading and skeleton screens are used while content is fetching. Application must not crash on slow or interrupted connections.
+\item[\textbf{NFR32: HTTPS Enforcement} (Priority: Must)]\\
+All traffic must be served over HTTPS with a valid SSL certificate. Plain HTTP requests are automatically redirected to HTTPS. SSL certificates must be kept valid and auto-renewed.
+\item[\textbf{NFR33: Performance Monitoring} (Priority: Should)]\\
+The system should collect load time metrics for ongoing performance monitoring. Instrumentation captures API response times and page load durations. Metrics are accessible in a monitoring dashboard for Admins.
+\item[\textbf{NFR34: Zero-Downtime Deployment} (Priority: Should)]\\
+The system should support zero-downtime updates using rolling deployment. New versions are deployed via a rolling update strategy. User sessions must not be dropped during a deployment.
+\item[\textbf{NFR35: Consistent Branding} (Priority: Must)]\\
+The UI must maintain consistent MSA University branding and color palette across all pages. Official palette: Gold \#8B6914 and Navy \#1F3864. Branding guidelines apply to all public-facing and dashboard screens.
+\item[\textbf{NFR36: Third-Party Privacy} (Priority: Must)]\\
+The system must not share user data with any third-party advertisers. No advertising SDK or pixel tracking is embedded in the platform. Privacy policy clearly states no data is sold or shared for advertising.
+\item[\textbf{NFR37: Search Precision} (Priority: Should)]\\
+Search results must have a precision rate of at least 95\%. Precision is measured as the proportion of returned results that match all applied filters. Validated through automated test suites using predefined filter combinations.
+\item[\textbf{NFR38: Offline Support} (Priority: Won’t)]\\
+The mobile app should provide basic offline access to saved and shortlisted listings. Shortlisted listings are cached locally for offline viewing. No new search or communication is possible without connectivity.
+\item[\textbf{NFR39: Resource Monitoring} (Priority: Could)]\\
+Admins must be automatically alerted if CPU usage exceeds 80\%. CPU usage is monitored continuously on all production server nodes. Alerts are dispatched via email or SMS when the 80\% threshold is crossed.
+\item[\textbf{NFR40: Automated Testing} (Priority: Should)]\\
+The system should maintain at least 80\% automated unit test coverage. Coverage is measured by an automated tool integrated into the CI/CD pipeline. Deployments are blocked if coverage drops below 80\%.
+\item[\textbf{NFR41: Legal Compliance} (Priority: Must)]\\
+The system must comply with local Egyptian student housing regulations. Privacy controls match student data protection requirements under applicable Egyptian law. Contract templates comply with local rental agreement regulations.
+\item[\textbf{NFR42: Font Legibility} (Priority: Must)]\\
+Body text must be set to a minimum of 14px for readability on all screen sizes. Applies to all body text elements across all screens. Automated style checks flag any element with a font size below 14px.
+\item[\textbf{NFR43: Low Latency OTP} (Priority: Must)]\\
+OTP messages must be delivered within 15 seconds of being requested. Measured from API trigger to SMS delivery confirmation. Applies under standard cellular network conditions.
+\item[\textbf{NFR44: Memory Management} (Priority: Should)]\\
+The application must not exceed 200 MB RAM usage on mobile devices. Measured via browser performance profiling on a mid-range Android or iOS device. Memory leak detection is part of the standard test suite.
+\item[\textbf{NFR45: Secure File Upload} (Priority: Must)]\\
+All uploaded images must be scanned for malware before being stored. Malware scanning runs server-side before any file is committed to storage. Infected files are rejected and the uploader is notified with an error.
+\item[\textbf{NFR46: API Rate Limiting} (Priority: Must)]\\
+The system must limit API requests per IP address to prevent denial-of-service attacks. Rate limits are enforced on all public-facing API endpoints. Requests exceeding the threshold receive a 429 Too Many Requests response.
+\item[\textbf{NFR47: Database Indexing} (Priority: Must)]\\
+Frequently searched query fields must be indexed for fast query execution. Indexed fields include: price, gender, room type, listing location, and availability. Index health is monitored and rebuilt when degraded.
+\item[\textbf{NFR48: Clean Code Standards} (Priority: Must)]\\
+Code must follow an equivalent industry-standard style guide. Python code follows PEP8. JavaScript/TypeScript code follows the Airbnb or equivalent style guide. Style compliance is enforced via linters in the CI/CD pipeline.
+\item[\textbf{NFR49: User Consent} (Priority: Must)]\\
+The system must obtain explicit user consent for all data collection. A clear consent screen is presented during registration. Data persistence routines remain dormant until the user confirms consent. Consent records are stored with a timestamp for audit purposes.
+\item[\textbf{NFR50: Session Concurrency} (Priority: Should)]\\
+Users shall be limited to 3 active sessions simultaneously. A fourth concurrent login terminates the oldest active session token. The displaced session receives a “session expired” notification.

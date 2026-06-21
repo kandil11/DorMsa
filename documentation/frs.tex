@@ -1,0 +1,98 @@
+\item[\textbf{FR01: User Registration} (Priority: Must)]\\
+The system shall allow users to register using their name, phone number, and selected role. Users may register as: Student, Parent, or Broker. A temporary account is created pending OTP phone verification. Duplicate phone numbers must be rejected.
+\item[\textbf{FR02: OTP Verification} (Priority: Must)]\\
+The system shall verify phone numbers via a One-Time Password (OTP) to ensure trusted communication. A 6-digit OTP is sent to the user’s registered phone number. OTP must be entered within a defined expiry window. On valid entry the account status changes from inactive to active.
+\item[\textbf{FR03: Secure Login / Logout} (Priority: Must)]\\
+The system shall provide secure login and logout functionality for authenticated access. Login requires a verified phone number and password. On logout all active session tokens for that device are invalidated. Sessions expire automatically after 30 minutes of inactivity (see NFR04).
+\item[\textbf{FR04: Profile Editing} (Priority: Should)]\\
+The system shall allow users to update their personal contact details and profile information. Editable fields include: name, phone number, and profile preferences. Changes are persisted to the database immediately upon saving. Input is validated and sanitized before storage.
+\item[\textbf{FR05: Role-Based Access} (Priority: Must)]\\
+The system shall restrict access to specific features based on the user’s assigned role. Roles: Student/Parent, Broker, Admin. Each role is directed to a distinct dashboard upon login. Cross-role access attempts are blocked and logged.
+\item[\textbf{FR06: Password Recovery} (Priority: Should)]\\
+The system shall allow users to reset their credentials via their registered phone number. User receives an OTP to their registered number to initiate reset. Password reset is inaccessible without completing OTP validation. A confirmation message is sent after successful reset.
+\item[\textbf{FR07: Price Filtering} (Priority: Should)]\\
+The system shall allow users to filter listings based on a minimum and maximum price range. Users can enter both a minimum and a maximum price bound. Listings outside the specified range are excluded from results immediately. Filter state persists during the same session.
+\item[\textbf{FR08: Room Type Filter} (Priority: Should)]\\
+The system shall allow users to filter by room type (Single, Double, Suite). Available room types: Single, Double, Suite. Only listings matching the selected room type are returned. Multiple room types may be selected simultaneously.
+\item[\textbf{FR09: Gender-Specific Search} (Priority: Should)]\\
+The system shall filter dorms by gender designation (Male, Female, Mixed). Designation options: Male, Female, Mixed. Only listings with the matching gender designation are returned. This filter is prominently exposed on the search screen.
+\item[\textbf{FR10: Proximity Search} (Priority: Should)]\\
+The system shall filter listings based on distance from MSA University campus. Distance is calculated from the fixed MSA October City campus coordinates. Results are sorted in ascending order by distance. Requires Google Maps API integration (see NFR25).
+\item[\textbf{FR11: Property Details View} (Priority: Must)]\\
+The system shall display high-resolution images and full text descriptions for every listing. Each listing page shows: photo gallery, description, price, room type, gender, location map. Images are compressed for mobile loading (see NFR09). Full details load within 2 seconds (see NFR10).
+\item[\textbf{FR13: Shortlist / Favourites} (Priority: Should)]\\
+The system shall allow users to save listings to a Shortlist for later comparison. A heart/bookmark icon on each listing card allows saving. Saved listings persist across sessions for the logged-in user. Users can remove listings from their shortlist at any time.
+\item[\textbf{FR14: WhatsApp Integration} (Priority: Must)]\\
+The system shall provide a direct button to initiate a WhatsApp chat with the broker. A “Chat on WhatsApp” button is displayed on every verified broker listing. Clicking the button launches the WhatsApp app with the broker’s verified number pre-filled. The click event is recorded for inquiry analytics (see FR25).
+\item[\textbf{FR15: Direct Call Button} (Priority: Must)]\\
+The system shall provide a Call button to contact brokers directly via phone. A “Call Broker” button is displayed on every verified broker listing. Clicking the button launches the native phone dialer with the broker’s number. The click event is recorded for inquiry analytics (see FR25).
+\item[\textbf{FR16: Location Map View} (Priority: Could)]\\
+The system shall display the exact location of dorms on an interactive map. A Google Maps embed or equivalent renders on each listing’s detail page. A map pin is placed at the property’s GPS coordinates. Requires a valid address entered by the broker at listing creation.
+\item[\textbf{FR17: Deposit Payment} (Priority: Should)]\\
+The system shall process secure deposit payments to confirm a booking. Students pay a deposit to secure a listing. Transactions are routed through a PCI-DSS compliant payment gateway (see NFR05). A payment receipt is generated and both student and broker are notified.
+\item[\textbf{FR18: Rating System} (Priority: Could)]\\
+The system shall allow users to rate brokers and properties after a confirmed visit. Rating scale: 1 to 5 stars. Only students who have completed a confirmed booking may rate. Ratings are published on the broker and property profiles.
+\item[\textbf{FR19: Review Submission} (Priority: Could)]\\
+The system shall allow users to write text reviews about their housing experience. Text reviews are available to students who have completed a stay. Reviews are stored, sanitized, and displayed publicly on the listing. Admins may remove reviews that violate platform policies.
+\item[\textbf{FR20: Saved Searches} (Priority: Could)]\\
+The system shall allow users to save their search criteria for future use. Users can name and save any combination of active filter parameters. Saved searches are retrievable from the user’s profile in future sessions. Saved searches trigger new listing alerts (see FR35).
+\item[\textbf{FR21: Create Listing} (Priority: Must)]\\
+The system shall allow verified brokers to upload property details, photos, and locations. Required fields: title, price, room type, gender designation, address, at least one photo. Broker must be verified by an Admin before any listing can be created (see FR28). Uploaded images are scanned for malware before storage (see NFR45).
+\item[\textbf{FR22: Edit Listing} (Priority: Must)]\\
+The system shall allow brokers to update prices, descriptions, and photos of active listings. Brokers may update any field on a listing they own. Changes are published immediately to all users (see NFR14). An audit trail entry is created for each edit.
+\item[\textbf{FR23: Availability Toggle} (Priority: Must)]\\
+The system shall allow brokers to mark a property as Available or Rented. Toggle states: Available, Rented. “Rented” listings are hidden from active search results immediately. The toggle is accessible from the broker dashboard with a single action.
+\item[\textbf{FR24: Broker Dashboard} (Priority: Should)]\\
+The system shall provide a dashboard showing view counts and student inquiry metrics. Metrics displayed: total listing views, WhatsApp clicks, Call clicks, bookings. Data refreshes in real-time. Accessible only to the authenticated broker who owns the listings.
+\item[\textbf{FR25: Inquiry Tracking} (Priority: Could)]\\
+The system shall track the number of times a broker’s phone number was clicked. Every WhatsApp and Call button click is counted and timestamped. Counts are stored in the broker’s analytics record. Data is surfaced in the broker dashboard (see FR24).
+\item[\textbf{FR26: Bulk Management} (Priority: Could)]\\
+The system shall provide tools for brokers to manage multiple listings simultaneously. Brokers may select multiple listings and apply a single action (e.g. price update, hide). Requires at least two active listings. Bulk actions are confirmed before execution to prevent accidental changes.
+\item[\textbf{FR27: Identity Submission} (Priority: Must)]\\
+The system shall allow brokers to upload identification documents for account verification. Acceptable document types: national ID, passport. Documents are stored securely in a restricted repository pending Admin review. Uploaded files are scanned for malware (see NFR45).
+\item[\textbf{FR28: Broker Verification Panel} (Priority: Must)]\\
+The system shall provide a panel for admins to approve or reject broker accounts. Admins view a queue of brokers awaiting verification. Admins may approve or reject with an optional reason. The broker is notified of the outcome by SMS or push notification.
+\item[\textbf{FR29: Content Moderation} (Priority: Should)]\\
+The system shall allow admins to delete listings with fake or inappropriate content. Admins can remove any listing from the platform. Removed listings are logged with a reason and timestamp. The broker receives a warning notification upon removal.
+\item[\textbf{FR30: User Suspension} (Priority: Must)]\\
+The system shall allow admins to ban users reported for misconduct. Suspended users cannot log in or access the platform. All active sessions for the suspended user are immediately invalidated. Suspension is logged in the audit trail (see FR37).
+\item[\textbf{FR31: System Usage Analytics} (Priority: Won’t)]\\
+The system shall generate reports on active listings and registered students. Reports include: total registered users per role, active listings, bookings per period. Available only in the Admin analytics portal. Data is displayed in visual chart form.
+\item[\textbf{FR32: Price Range Reports} (Priority: Won’t)]\\
+The system shall generate reports on the most searched price ranges. Reports rank price ranges by search frequency. Requires sufficient historical search data to be meaningful. Accessible only to Admins.
+\item[\textbf{FR33: Fraud Detection} (Priority: Should)]\\
+The system shall automatically flag suspicious patterns or duplicate listings. Background jobs compare listing content to detect duplicates. Suspicious listings are flagged and surfaced to the Admin review queue. The detection process runs without user intervention.
+\item[\textbf{FR34: Booking Confirmation} (Priority: Must)]\\
+The system shall send an automated notification when a booking is successful. Triggered immediately upon successful deposit payment. Both the student and the broker receive a confirmation notification. Notification channels: SMS and/or push notification (see FR46).
+\item[\textbf{FR35: New Listing Alert} (Priority: Could)]\\
+The system shall notify users when a new listing matches their saved search criteria. Requires user to have at least one saved search (see FR20). Alert is dispatched when a new listing matches saved criteria. Delivered via SMS or push notification (see FR46).
+\item[\textbf{FR36: Expiry Reminders} (Priority: Could)]\\
+The system shall notify brokers to update listings older than 30 days. A reminder is sent if a listing has not been modified for 30 days. Delivered via SMS or push notification. If no action is taken within another 30 days the listing is auto-hidden (see FR47).
+\item[\textbf{FR37: Audit Logs} (Priority: Should)]\\
+The system shall record all admin actions for security and tracking purposes. Every Admin action (approve, reject, suspend, delete) is logged. Each log entry includes: action type, target entity, timestamp, Admin ID. Logs are retained for a minimum of 90 days (see NFR23).
+\item[\textbf{FR38: Language Localization} (Priority: Could)]\\
+The system shall support multiple languages for international students. Initial supported languages: Arabic, English. Language preference is set from the user’s profile settings. All UI text is rendered in the selected language upon preference change.
+\item[\textbf{FR39: Currency Converter} (Priority: Could)]\\
+The system shall provide real-time currency conversion for housing prices. Users can select a preferred display currency from a dropdown. Conversion rates are fetched from a live exchange rate API. Prices update immediately upon currency selection.
+\item[\textbf{FR40: Safety Indicators} (Priority: Could)]\\
+The system shall display safety indicators for dorm locations based on local data. Safety rating or badge is shown on each listing where location data is available. Data is sourced from verified local safety datasets. Indicator updates when underlying data changes.
+\item[\textbf{FR41: Amenities Filter} (Priority: Could)]\\
+The system shall filter listings by nearby amenities such as supermarkets. Amenity categories: supermarket, pharmacy, public transport, gym. Users select one or more amenity categories in the search filter panel. Only listings within a defined radius of the selected amenity are shown.
+\item[\textbf{FR42: Roommate Matching} (Priority: Could)]\\
+The system shall suggest potential roommates based on student profile preferences. Students complete a preferences section in their profile (see FR04). The system suggests compatible students based on preferences. Students may opt out of roommate matching visibility from their settings.
+\item[\textbf{FR43: Contract Template} (Priority: Could)]\\
+The system shall provide digital contract templates for brokers and students. Generated automatically following a confirmed booking (see FR34). Template is pre-filled with booking details: student name, property, dates, deposit amount. Both parties receive a copy of the generated document.
+\item[\textbf{FR44: Payment History} (Priority: Should)]\\
+Users shall be able to view their previous deposit payment transactions. Each transaction record shows: date, amount, property name, and status. Records are listed in reverse chronological order. Accessible from the student’s profile dashboard.
+\item[\textbf{FR45: TroubleShoot} (Priority: Should)]\\
+The system shall allow users to submit support tickets for technical issues. Users complete a support form with: issue type, description, and optional screenshot. A unique ticket ID is generated and communicated to the user. Tickets are assigned to the support team queue for resolution.
+\item[\textbf{FR46: Push Notifications} (Priority: Should)]\\
+The system shall send push notifications for mobile browser users. Users must grant notification permission in their browser settings. Notification types: booking confirmation, new listing alert, expiry reminder. Delivered via the browser’s Web Push API.
+\item[\textbf{FR47: Listing Expiry Auto-Hide} (Priority: Could)]\\
+The system shall automatically hide listings not updated for 60 days. Automated sweep checks listings daily for last-modification date. Listings exceeding 60 days without update are hidden from search results. The broker receives a notification when their listing is auto-hidden.
+\item[\textbf{FR48: Profile Verification Badge} (Priority: Should)]\\
+The system shall display a verification badge on verified broker profiles. Badge is displayed on the broker’s profile and on all their active listings. Badge is assigned only after Admin approval (see FR28). Badge is removed if the broker’s account is suspended.
+\item[\textbf{FR49: Student ID Verification} (Priority: Should)]\\
+The system shall verify student status via university email or student ID upload. Acceptable verification: MSA university email confirmation or student ID upload. Verification is optional but unlocks additional trust features. Verified student accounts display a student-verified indicator.
+\item[\textbf{FR50: FAQ Section} (Priority: Could)]\\
+The system shall provide a frequently asked questions section for new users. FAQ content is accessible without requiring login. Users can search FAQ articles by keyword. Admins may add or update FAQ entries from the admin panel.

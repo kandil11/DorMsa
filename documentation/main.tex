@@ -1,0 +1,249 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{titlesec}
+\usepackage{enumitem}
+
+% Define colors matching the official MSA branding guidelines (NFR35)
+\definecolor{msanavy}{HTML}{1F3864}
+\definecolor{msagold}{HTML}{8B6914}
+\definecolor{lightgray}{gray}{0.95}
+
+% Document settings
+\hypersetup{
+    colorlinks=true,
+    linkcolor=msanavy,
+    filecolor=msagold,      
+    urlcolor=msanavy,
+    pdftitle={DorMsa - Component - Based Computing},
+    pdfpagemode=FullScreen,
+}
+
+\titleformat{\section}
+  {\color{msanavy}\normalfont\Large\bfseries}
+  {\thesection}{1em}{}
+\titleformat{\subsection}
+  {\color{msanavy}\normalfont\large\bfseries}
+  {\thesubsection}{1em}{}
+\titleformat{\subsubsection}
+  {\color{msanavy}\normalfont\normalsize\bfseries}
+  {\thesubsubsection}{1em}{}
+
+% Header and Footer setup
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\color{msanavy}DorMsa University Housing Platform}
+\lhead{\color{msanavy}Component - Based Computing}
+\rfoot{\thepage}
+\lfoot{\color{msanavy}MSA Faculty of Computer Science}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\begin{document}
+
+% Cover Page
+\begin{titlepage}
+    \centering
+    
+    {\large\bfseries Modern Sciences and Arts University}\\[0.2cm]
+    {\large Faculty of Computer Science}\\[0.2cm]
+    {\large CS344x — Software Engineering}
+    
+    \vfill
+    
+    \color{msanavy}\rule{\linewidth}{1.5pt}\\[1.0cm]
+    {\Huge\bfseries DorMsa}\\[0.5cm]
+    {\large\bfseries\color{msagold} University Housing Platform for MSA Students}\\[1.0cm]
+    {\Large\bfseries\color{msanavy} Component - Based Computing Project Report}\\[1.0cm]
+    \color{msanavy}\rule{\linewidth}{1.5pt}
+    
+    \vfill
+    
+    \textbf{\color{msanavy}\large Prepared By:}\\[0.4cm]
+    {\large
+    Muhammad Kandil (245629)\\[0.15cm]
+    Retag Ahmed (248727)\\[0.15cm]
+    Shahd Maher (248847)\\[0.15cm]
+    Abdelrahman Mohamed (245435)}
+    
+    \vfill
+    {\large\bfseries\color{msanavy} May 2026}
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+
+\section{Project Problem Statement and Context}
+
+\subsection{User Problem Statement}
+MSA students currently face several problems when trying to find off-campus housing. There is no centralized platform designed specifically for them. They usually turn to unverified Facebook groups or word-of-mouth, which regularly leads to scam listings. Brokers have no professional way to reach students. There is also no easy way to filter by gender-appropriate housing, and without a formal deposit system, payment disputes are common.
+
+\subsection{Business Context}
+MSA University (Modern Sciences and Arts University) is a private university located in October City. Every semester, a large number of foreign students need to find housing near the campus. The problem is that there is no dedicated platform for this. Students currently rely on Facebook groups and recommendations from friends, which often leads to scam listings, wasted time, and in some cases financial problems. DorMsa was created to address this gap. The goal is to build a trusted, verified marketplace that is specifically designed for the MSA community.
+
+\subsection{Purpose and Scope of this Document}
+This document is the Component - Based Computing (SRS) for the DorMsa housing platform. It is meant to give the development team, the project supervisor, and anyone else involved a clear and complete picture of what the system needs to do and how it should perform. The document covers both functional and non-functional requirements and is intended to serve as the main reference throughout the project lifecycle.
+
+DorMsa is a web platform built to connect MSA University students who are looking for housing with verified property brokers near the October City campus. The system is designed to cover the whole housing process, from registering an account and searching for listings to communicating with brokers, making deposit payments, and managing listings on the admin side.
+
+\subsection{System Overview}
+DorMsa gives three different types of users their own interface and set of features. Students and parents can search for housing, view listings, and book properties. Brokers can list and manage their properties. Admins can verify brokers, moderate content, and monitor the platform. The key features include OTP-based phone verification, search filters, WhatsApp and call integration, secure payment processing, and a real-time analytics dashboard.
+
+\newpage
+\section{Project Functional and Non-Functional Requirements}
+
+\subsection{Functional Requirements}
+All functional requirements are detailed below. On valid user registration, a temporary account state is created pending OTP phone verification.
+\begin{description}[style=nextline, leftmargin=1cm]
+    \input{frs.tex}
+\end{description}
+
+\newpage
+\subsection{Non-Functional Requirements}
+The quality and operational constraints of the platform are listed below.
+\begin{description}[style=nextline, leftmargin=1cm]
+    \input{nfrs.tex}
+\end{description}
+
+\newpage
+\section{Component and Use Case Diagrams}
+
+\subsection{Use Case Diagram}
+The DorMsa Use Case Diagram identifies four actors: General User, Student/Parent, Broker, Admin, and System (Automated Tasks). The main use cases are: Register Account (includes Verify Phone Number), Search and Filter Listings, Manage Listings, Verify Brokers, Moderate Content, View Analytics, and Send Notifications.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{DorMSA_use-case.png}
+    \caption{DorMsa Use Case Diagram}
+    \label{fig:usecase}
+\end{figure}
+
+\subsection{Component Diagram}
+The Component Diagram details the physical structure of the components in the system and their wiring. The diagram shows the provided and required interfaces for each service component and their dependencies.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{Component_diagram.pdf}
+    \caption{DorMsa Component Diagram}
+    \label{fig:component}
+\end{figure}
+
+\newpage
+\section{Overall System Design and Architecture}
+
+\subsection{Preliminary Object-Oriented Domain Analysis}
+
+\subsubsection{Inheritance Relationships}
+User is an abstract base class. Student, Broker, and Admin are concrete subclasses that inherit common attributes and operations such as userID, name, phone, login(), and logout(), while each adds its own role-specific behaviour.
+
+\begin{verbatim}
+User (abstract)
+|-- Student
+|-- Broker
+|-- Admin
+\end{verbatim}
+
+Additional associations: Listing is owned by Broker. Booking links Student and Listing. Review is authored by Student and references a Listing. Notification can be sent to any User.
+
+\subsubsection{Class Descriptions}
+\begin{itemize}[leftmargin=0.5cm]
+    \item \textbf{User (Abstract)}: 
+    \begin{itemize}
+        \item \textbf{Purpose}: Base entity representing any registered platform user.
+        \item \textbf{Attributes}: userID: String, name: String, phone: String (encrypted), role: Enum \{Student, Broker, Admin\}, isVerified: Boolean, sessionToken: String.
+        \item \textbf{Operations}: register(), login(), logout(), editProfile(), resetPassword().
+    \end{itemize}
+    
+    \item \textbf{Student (Concrete)}: 
+    \begin{itemize}
+        \item \textbf{Purpose}: Represents an MSA student or parent looking for housing.
+        \item \textbf{Attributes}: studentID: String, savedSearches: \texttt{List<SearchCriteria>}, shortlist: \texttt{List<Listing>}, paymentHistory: \texttt{List<Transaction>}.
+        \item \textbf{Operations}: searchListings(filters), saveListing(listing), payDeposit(listing, amount), submitReview(rating, text).
+    \end{itemize}
+    
+    \item \textbf{Broker (Concrete)}: 
+    \begin{itemize}
+        \item \textbf{Purpose}: Represents a property owner or agent who manages listings.
+        \item \textbf{Attributes}: brokerID: String, idDocuments: \texttt{List<File>}, isApproved: Boolean, verificationBadge: Boolean, dashboardMetrics: DashboardData.
+        \item \textbf{Operations}: createListing(), editListing(listing), toggleAvailability(listing), viewDashboard(), submitIdentity(docs).
+    \end{itemize}
+    
+    \item \textbf{Admin (Concrete)}: 
+    \begin{itemize}
+        \item \textbf{Purpose}: MSA staff member responsible for moderation and oversight.
+        \item \textbf{Attributes}: adminID: String, permissions: \texttt{List<String>}.
+        \item \textbf{Operations}: verifyBroker(broker), moderateContent(listing), suspendUser(user), viewAnalytics().
+    \end{itemize}
+    
+    \item \textbf{Listing (Concrete)}: 
+    \begin{itemize}
+        \item \textbf{Purpose}: Represents a housing property posted by a verified Broker.
+        \item \textbf{Attributes}: listingID: String, brokerID: String, title: String, price: Float, roomType: Enum, gender: Enum, location: GeoPoint, photos: \texttt{List<URL>}, isAvailable: Boolean, createdAt: DateTime, updatedAt: DateTime.
+        \item \textbf{Operations}: publish(), hide(), flagAsDuplicate(), getDistance(campusLocation).
+    \end{itemize}
+    
+    \item \textbf{Booking (Concrete)}: 
+    \begin{itemize}
+        \item \textbf{Purpose}: Represents a confirmed housing reservation between a Student and a Broker.
+        \item \textbf{Attributes}: bookingID: String, studentID: String, listingID: String, depositAmount: Float, status: Enum \{Pending, Confirmed, Cancelled\}, confirmedAt: DateTime.
+        \item \textbf{Operations}: confirmBooking(), cancelBooking(), generateReceipt().
+    \end{itemize}
+    
+    \item \textbf{Review (Concrete)}: 
+    \begin{itemize}
+        \item \textbf{Purpose}: Stores student feedback for a listing or broker.
+        \item \textbf{Attributes}: reviewID: String, authorID: String, targetID: String, rating: Integer (1--5), text: String, createdAt: DateTime.
+        \item \textbf{Operations}: submit(), publish(), delete().
+    \end{itemize}
+    
+    \item \textbf{Notification (Concrete)}: 
+    \begin{itemize}
+        \item \textbf{Purpose}: System-generated message dispatched to users on trigger events.
+        \item \textbf{Attributes}: notifID: String, recipientID: String, type: Enum \{Booking, Expiry, NewListing\}, channel: Enum \{SMS, Push, Email\}, deliveredAt: DateTime.
+        \item \textbf{Operations}: send(), retry(), markDelivered().
+    \end{itemize}
+\end{itemize}
+
+\subsection{Microservice Component-Based Architecture}
+Each component configured in the system adheres to Component-Based Programming (CBP) principles of provided and required interfaces under an Inversion of Control (IoC) framework.
+
+\begin{table}[H]
+\centering
+\small
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{p{0.04\textwidth} p{0.28\textwidth} p{0.28\textwidth} p{0.34\textwidth}}
+\toprule
+\textbf{\#} & \textbf{Provided Interface} & \textbf{Concrete Class} & \textbf{Description} \\
+\midrule
+1 & \hspace{0pt}Email\-Gateway & \hspace{0pt}Mock\-Email\-Gateway & Development gateway logging email contents to the terminal. \\
+2 & \hspace{0pt}Email\-Gateway & \hspace{0pt}Smtp\-Email\-Gateway & Simulates connection to institutional SMTP server. \\
+3 & \hspace{0pt}Notification\-Service & \hspace{0pt}Console\-Notification\-Service & Handles user alerts and delegates delivery to email port. Required: \hspace{0pt}Email\-Gateway, \hspace{0pt}Message\-Store\-Service. \\
+4 & \hspace{0pt}Support\-Router\-Service & \hspace{0pt}Simple\-Support\-Router\-Service & Automates support helpdesk routing assignments. Required: \hspace{0pt}Notification\-Service, \hspace{0pt}Message\-Store\-Service. \\
+5 & \hspace{0pt}Saved\-Search\-Matcher\-Service & \hspace{0pt}Simple\-Saved\-Search\-Matcher\-Service & Matches property uploads against user searches. Required: \hspace{0pt}Notification\-Service. \\
+6 & \hspace{0pt}Message\-Store\-Service & \hspace{0pt}Simple\-Message\-Store\-Service & Normalizes phone numbers and logs OTPs/system events. \\
+\bottomrule
+\end{tabular}
+\caption{System Component Directory}
+\label{tab:components}
+\end{table}
+
+\newpage
+\section{Screenshots for the User Interface}
+The following screenshot illustrates the live application interface: the left-hand panel shows the student dashboard (including active OTP phone number validation banners and status indicators), while the right-hand panel shows the real-time Java microservice dashboard logging autowired components, verification transactions, and support ticket assignments.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{ui_screenshot.png}
+    \caption{DorMsa User Interface - Dashboard and Java Component Logs}
+    \label{fig:uiscreenshot}
+\end{figure}
+
+\end{document}

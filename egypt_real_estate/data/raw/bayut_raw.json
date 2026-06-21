@@ -1,0 +1,4343 @@
+{
+  "metadata": {
+    "scraped_at": "2026-05-05T08:47:50",
+    "source": "https://bayut.eg",
+    "source_robots": "https://bayut.eg/robots.txt",
+    "areas_scraped": [
+      "6th_of_october",
+      "sheikh_zayed"
+    ],
+    "total_listings": 240,
+    "ethical_compliance": {
+      "robots_txt_respected": true,
+      "crawl_delay_seconds": "3.0–6.0",
+      "only_public_pages": true,
+      "no_login_required": true,
+      "no_personal_data": true,
+      "rfc_9309_compliant": true,
+      "intended_use": "Research / personal analysis only"
+    }
+  },
+  "listings": [
+    {
+      "url": "https://bayut.eg/en/property/details-502318205.html",
+      "title": "Royal mansion with pool and 5 bedrooms in premium compound sheik zayed",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 10999,
+        "period": "Daily",
+        "raw": "EGP 10,999"
+      },
+      "property_type": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area_sqm": 1000,
+      "compound": null,
+      "location": "Royal mansion with pool and 5 bedrooms in premium compound sheik zayed",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503440840.html",
+      "title": "For Rent First used luxury Town house villa fully finished with A'C & Kitchen, in palm parks compound by palm hills.",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 90000,
+        "period": "Monthly",
+        "raw": "EGP 90,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "area_sqm": 357,
+      "compound": "Palm Parks Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503439168.html",
+      "title": "Apartment with garden -Under market price in Tulwa",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 30000,
+        "period": "Monthly",
+        "raw": "EGP 30,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "area_sqm": 122,
+      "compound": "O West Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503433969.html",
+      "title": "Townhouse for Rent in O West – Prime Location",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 60000,
+        "period": "Monthly",
+        "raw": "EGP 60,000"
+      },
+      "property_type": "Townhouse",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "area_sqm": 200,
+      "compound": "O West Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503423401.html",
+      "title": "Apartment for Rent in North Touristic Area 1 Behind Mall of Arabia – Prime Location on Dahshur Road",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 15000,
+        "period": "Monthly",
+        "raw": "EGP 15,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 120,
+      "compound": "Syaheia 1",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503048385.html",
+      "title": "Apartment for rent, finished, first occupancy in October",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 16000,
+        "period": "Monthly",
+        "raw": "EGP 16,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 155,
+      "compound": "Apartment for rent",
+      "location": "finished, first occupancy in October",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503406415.html",
+      "title": "Corner Townhouse for Rent in Wood Ville Palm Hills – Ultra Super Lux Finishing",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 95000,
+        "period": "Monthly",
+        "raw": "EGP 95,000"
+      },
+      "property_type": "Townhouse",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area_sqm": 265,
+      "compound": "Woodville Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503048398.html",
+      "title": "Apartment for rent inside the Ishraqa compound, first occupancy",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 16000,
+        "period": "Monthly",
+        "raw": "EGP 16,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 155,
+      "compound": "Eshraqa Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503448709.html",
+      "title": "Ground Floor Apartment with Garden for Rent in O West – Spacious Layout",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 34000,
+        "period": "Monthly",
+        "raw": "EGP 34,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 150,
+      "compound": "O West Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502703790.html",
+      "title": "Villa for rent Al Reem Residence with kitchen ACS",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 80000,
+        "period": "Monthly",
+        "raw": "EGP 80,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area_sqm": 300,
+      "compound": "Reem Residence Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502290632.html",
+      "title": "Modern trio villa with coverable heated private pool in lavida compound",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 7999,
+        "period": "Daily",
+        "raw": "EGP 7,999"
+      },
+      "property_type": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "area_sqm": 500,
+      "compound": "La Vida",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503426095.html",
+      "title": "Furnished Apartment for Rent in O West – Tulwa Phase October",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 45000,
+        "period": "Monthly",
+        "raw": "EGP 45,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "area_sqm": 120,
+      "compound": null,
+      "location": "Furnished Apartment for Rent in O West – Tulwa Phase October",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503352222.html",
+      "title": "Furnished apartment for rent in October",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 20000,
+        "period": "Monthly",
+        "raw": "EGP 20,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 160,
+      "compound": null,
+      "location": "Furnished apartment for rent in October",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503424140.html",
+      "title": "Duplex For Rent At Palm Parks With Kitchen And Acs",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 43000,
+        "period": "Monthly",
+        "raw": "EGP 43,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 210,
+      "compound": "Palm Parks Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503420293.html",
+      "title": "Penthouse For Rent At Owest Fully Fininshed with Acs",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 50000,
+        "period": "Monthly",
+        "raw": "EGP 50,000"
+      },
+      "property_type": "Penthouse",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area_sqm": 285,
+      "compound": "O West Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503439294.html",
+      "title": "Furnished twinhouse with pool-Golf View-Palm Hills",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 230000,
+        "period": "Monthly",
+        "raw": "EGP 230,000"
+      },
+      "property_type": "Twin House",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area_sqm": 500,
+      "compound": "Palm hills golf views Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503455695.html",
+      "title": "Licensed apartment for rent + master bedroom",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 20000,
+        "period": "Monthly",
+        "raw": "EGP 20,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 250,
+      "compound": "Syaheia 4",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503460442.html",
+      "title": "Apartment for rent in the Sixth Tourist Area",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 23000,
+        "period": "Monthly",
+        "raw": "EGP 23,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 300,
+      "compound": "Syaheia 6",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502994565.html",
+      "title": "Amazing I villa (Duplex) fully finished ultra super lux finishing with kitchen and A/C for rent in prime location in Mountain view chill out park",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 50000,
+        "period": "Monthly",
+        "raw": "EGP 50,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 280,
+      "compound": "Mountain View Chillout Park Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503438897.html",
+      "title": "A distinctive 125-square-meter ground-floor apartment with 3 bedrooms and a garden is available for rent in Kayan Badr El Din Compound",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 22000,
+        "period": "Monthly",
+        "raw": "EGP 22,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 125,
+      "compound": "Kayan",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503441688.html",
+      "title": "Townhouse Corner for rent with Kitchen appliances and Ac’s in O west at Very Prime Location",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 70000,
+        "period": "Monthly",
+        "raw": "EGP 70,000"
+      },
+      "property_type": "Townhouse",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "area_sqm": 265,
+      "compound": "O West Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503274552.html",
+      "title": "Luxury apartment in Aeon Towers, Mall of Arabia.",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 5000,
+        "period": "Daily",
+        "raw": "EGP 5,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 140,
+      "compound": "Mall of Arabia",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503448760.html",
+      "title": "West Hills ground plus garden 2 Bdr with kitchen cabinets, 2 minutes toNew Giza",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 45000,
+        "period": "Monthly",
+        "raw": "EGP 45,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "area_sqm": 160,
+      "compound": "West Hills ground plus garden 2 Bdr with kitchen cabinets",
+      "location": "2 minutes toNew Giza",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503433646.html",
+      "title": "Twin House with a Private Garden for rent with Kitchen Cabinets & ACs in Golf Extension, Palm Hills, 6th Of October City",
+      "area": "6th_of_october",
+      "page": 1,
+      "price": {
+        "amount_egp": 100000,
+        "period": "Monthly",
+        "raw": "EGP 100,000"
+      },
+      "property_type": "Twin House",
+      "bedrooms": 3,
+      "bathrooms": 5,
+      "area_sqm": 265,
+      "compound": "Twin House with a Private Garden for rent with Kitchen Cabinets & ACs in Golf Extension",
+      "location": "Palm Hills, 6th Of October City",
+      "scraped_at": "2026-05-05T08:46:56"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503433877.html",
+      "title": "For Rent Ground Floor 3 bedrooms New Giza Jasper",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 65000,
+        "period": "Monthly",
+        "raw": "EGP 65,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 170,
+      "compound": null,
+      "location": "For Rent Ground Floor 3 bedrooms New Giza Jasper",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503441524.html",
+      "title": "Prime Apartment with Kitchen and Acs for rent at O west beside Mall of Egypt on Wahat Road",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 39000,
+        "period": "Monthly",
+        "raw": "EGP 39,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "area_sqm": 196,
+      "compound": null,
+      "location": "Prime Apartment with Kitchen and Acs for rent at O west beside Mall of Egypt on Wahat Road",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503446874.html",
+      "title": "New rental apartment in Garden Hills Compound 6 October, Northern Expansions, Bahri",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 10000,
+        "period": "Monthly",
+        "raw": "EGP 10,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 130,
+      "compound": "New rental apartment in Garden Hills Compound 6 October",
+      "location": "Northern Expansions, Bahri",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503226677.html",
+      "title": "Hotel-Style Furnished Apartment for Rent – Jannah October Compound, Dahshour Link – Sheikh Zayed",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 39000,
+        "period": "Monthly",
+        "raw": "EGP 39,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 140,
+      "compound": "Hotel-Style Furnished Apartment for Rent – Jannah October Compound",
+      "location": "Dahshour Link – Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503424445.html",
+      "title": "Standalone villa for rent – landscape view",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 75000,
+        "period": "Monthly",
+        "raw": "EGP 75,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "area_sqm": 570,
+      "compound": "Dara Gardens Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503287156.html",
+      "title": "Apartment for rent in Courtyard – AEON",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 60000,
+        "period": "Monthly",
+        "raw": "EGP 60,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 5,
+      "area_sqm": 232,
+      "compound": "Aeon Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503424993.html",
+      "title": "Apartment for Rent in O West 3 Bedrooms • 3 Bathrooms • Nanny’s Room • Reception",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 45000,
+        "period": "Monthly",
+        "raw": "EGP 45,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 220,
+      "compound": "O West Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503254160.html",
+      "title": "Furnished studio for rent in 6 October [New October Compound] at a special price",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 16000,
+        "period": "Monthly",
+        "raw": "EGP 16,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area_sqm": 60,
+      "compound": null,
+      "location": "Furnished studio for rent in 6 October [New October Compound] at a special price",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503441585.html",
+      "title": "Townhouse for rent at O-West October Whyt near of new giza , Palm Hills , elshikh zayed and baverly hills",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 63000,
+        "period": "Monthly",
+        "raw": "EGP 63,000"
+      },
+      "property_type": "Townhouse",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area_sqm": 202,
+      "compound": "Townhouse for rent at O-West October Whyt near of new giza",
+      "location": "Palm Hills, elshikh zayed and baverly hills",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503182464.html",
+      "title": "Apartment for rent in the distinguished neighborhood, first upper floor",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 13000,
+        "period": "Monthly",
+        "raw": "EGP 13,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 133,
+      "compound": "Al Motamayez District",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502044296.html",
+      "title": "Fully Furnished 3-Bed Apartment for Rent in Murooj Compound",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 35000,
+        "period": "Monthly",
+        "raw": "EGP 35,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 170,
+      "compound": "Murooj Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503402879.html",
+      "title": "Penthouse for Rent in Garden Hills – Open Roof | Fully Furnished",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 35000,
+        "period": "Monthly",
+        "raw": "EGP 35,000"
+      },
+      "property_type": "Penthouse",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 205,
+      "compound": "Garden Hills Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503401582.html",
+      "title": "Furnished Apartment for Rent 130 sqm - Open Views - Master room",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 28000,
+        "period": "Monthly",
+        "raw": "EGP 28,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 130,
+      "compound": "Janna",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503261474.html",
+      "title": "Villa for daily rent",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 4700,
+        "period": "Daily",
+        "raw": "EGP 4,700"
+      },
+      "property_type": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "area_sqm": 2000,
+      "compound": "El Reef El Orouby Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503444009.html",
+      "title": "twinhouse for rent furnished",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 65000,
+        "period": "Monthly",
+        "raw": "EGP 65,000"
+      },
+      "property_type": "Twin House",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area_sqm": 800,
+      "compound": "Al Safwa",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502633782.html",
+      "title": "For daily rent, a villa in the luxury compound Grand Heights",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 15000,
+        "period": "Daily",
+        "raw": "EGP 15,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area_sqm": 1199,
+      "compound": "Grand Heights",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503442467.html",
+      "title": "Townhouse Middle With Kitchen and Ac's at Prime location and Amazing View for Rent at O west-Mall of Egypt - Wahat Road",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 65000,
+        "period": "Monthly",
+        "raw": "EGP 65,000"
+      },
+      "property_type": "Townhouse",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "area_sqm": 266,
+      "compound": null,
+      "location": "Townhouse Middle With Kitchen and Ac's at Prime location and Amazing View for Rent at O west-Mall of Egypt - Wahat Road",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503390936.html",
+      "title": "Apartment for Rent 130 sqm in Prime 6 October Compounds",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 15000,
+        "period": "Monthly",
+        "raw": "EGP 15,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 130,
+      "compound": null,
+      "location": "Apartment for Rent 130 sqm in Prime 6 October Compounds",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503450607.html",
+      "title": "For rent, furnished apartment, first occupancy, Jannat October compound.",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 35000,
+        "period": "Monthly",
+        "raw": "EGP 35,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 140,
+      "compound": "For rent",
+      "location": "furnished apartment, first occupancy, Jannat October compound.",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503309783.html",
+      "title": "For rent, a furnished apartment in Janna October compound",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 22000,
+        "period": "Monthly",
+        "raw": "EGP 22,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_sqm": 100,
+      "compound": "For rent",
+      "location": "a furnished apartment in Janna October compound",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503401384.html",
+      "title": "Furnished Apartment for Rent 130 sqm - Fully Air Conditioned",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 28000,
+        "period": "Monthly",
+        "raw": "EGP 28,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 130,
+      "compound": "Janna",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503365888.html",
+      "title": "This spacious apartment spans 170 square meters and is located on the fifth floor, offering a well-balanced layout designed for comfortable modern liv",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 75000,
+        "period": "Monthly",
+        "raw": "EGP 75,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "area_sqm": 170,
+      "compound": "Aeon Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503441870.html",
+      "title": "Apartment for rent at City view near of new giza palm parks waslet dahshour baverlly hills elshikh zayed city",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 50000,
+        "period": "Monthly",
+        "raw": "EGP 50,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 200,
+      "compound": null,
+      "location": "Apartment for rent at City view near of new giza palm parks waslet dahshour baverlly hills elshikh zayed city",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502875137.html",
+      "title": "Villa for daily rent, hotel-style furnishings for families in Palm Hills, Sheikh Zayed",
+      "area": "6th_of_october",
+      "page": 2,
+      "price": {
+        "amount_egp": 15000,
+        "period": "Daily",
+        "raw": "EGP 15,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area_sqm": 800,
+      "compound": "Villa for daily rent",
+      "location": "hotel-style furnishings for families in Palm Hills, Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:03"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503369614.html",
+      "title": "Furnished twin villas for rent-October 6, al Rawda compound",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 65000,
+        "period": "Monthly",
+        "raw": "EGP 65,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area_sqm": 440,
+      "compound": "Furnished twin villas for rent-October 6",
+      "location": "al Rawda compound",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503139448.html",
+      "title": "villa twin house for rent in pyramid walk compound 6 october kitchen & ac’s",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 55000,
+        "period": "Monthly",
+        "raw": "EGP 55,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area_sqm": 320,
+      "compound": null,
+      "location": "villa twin house for rent in pyramid walk compound 6 october kitchen & ac’s",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503234573.html",
+      "title": "Apartment for Rent Landscape View Tulwa O West kitchen & ACs",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 35000,
+        "period": "Monthly",
+        "raw": "EGP 35,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 208,
+      "compound": "O West Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503180363.html",
+      "title": "For rent, a furnished apartment in front of Mall of Arabia, a prime location.",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 25000,
+        "period": "Monthly",
+        "raw": "EGP 25,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 160,
+      "compound": "Syaheia 1",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503353364.html",
+      "title": "Apartment for rent at O-West Tulwa",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 28000,
+        "period": "Monthly",
+        "raw": "EGP 28,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "area_sqm": 161,
+      "compound": "O West Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503329935.html",
+      "title": "Apartment for rent in palm parks 152m 2 bedrooms,2 bathrooms",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 45000,
+        "period": "Monthly",
+        "raw": "EGP 45,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 152,
+      "compound": "Palm Parks Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502641101.html",
+      "title": "Furnished villa with a private pool in a compound in Palm Hills",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 15000,
+        "period": "Daily",
+        "raw": "EGP 15,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area_sqm": 1200,
+      "compound": "Palm hills golf extension Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503406347.html",
+      "title": "Penthouse Proof for rent in New Giza Compound 3 rooms 1/2 brushes at a shot price",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 55000,
+        "period": "Monthly",
+        "raw": "EGP 55,000"
+      },
+      "property_type": "Penthouse",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 205,
+      "compound": null,
+      "location": "Penthouse Proof for rent in New Giza Compound 3 rooms 1/2 brushes at a shot price",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503352871.html",
+      "title": "Studio for rent in Neom Compound, October, first residence next to Mountain View and a few minutes to Dahshour. Special price.",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 7500,
+        "period": "Monthly",
+        "raw": "EGP 7,500"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area_sqm": 56,
+      "compound": "Studio for rent in Neom Compound",
+      "location": "October, first residence next to Mountain View and a few minutes to Dahshour. Special price.",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503436449.html",
+      "title": "Apartment for rent in New Giza Westridge",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 45000,
+        "period": "Monthly",
+        "raw": "EGP 45,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "area_sqm": 165,
+      "compound": null,
+      "location": "Apartment for rent in New Giza Westridge",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-501906406.html",
+      "title": "For rent, furnished duplex next to Mall of Arabia with a garden",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 2500,
+        "period": "Daily",
+        "raw": "EGP 2,500"
+      },
+      "property_type": "Duplex",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 250,
+      "compound": "Syaheia 1",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503436492.html",
+      "title": "Apartment for rent in New Giza Amberville",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 60000,
+        "period": "Monthly",
+        "raw": "EGP 60,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 237,
+      "compound": null,
+      "location": "Apartment for rent in New Giza Amberville",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503313469.html",
+      "title": "Apartment for rent in compound Gardenia Elshms October 180 meters With kitchen and air conditioning",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 15000,
+        "period": "Monthly",
+        "raw": "EGP 15,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 180,
+      "compound": null,
+      "location": "Apartment for rent in compound Gardenia Elshms October 180 meters With kitchen and air conditioning",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503311189.html",
+      "title": "Family house in the crown by palmhills 3 bedrooms penthouse",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 80000,
+        "period": "Monthly",
+        "raw": "EGP 80,000"
+      },
+      "property_type": "Penthouse",
+      "bedrooms": 3,
+      "bathrooms": 5,
+      "area_sqm": 279,
+      "compound": "The Crown Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503439752.html",
+      "title": "ultra lux new superior finishing studio october plaza sodic for rent kitchen acs fully furnished",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 25000,
+        "period": "Monthly",
+        "raw": "EGP 25,000"
+      },
+      "property_type": "Studio",
+      "bedrooms": 1,
+      "bathrooms": null,
+      "area_sqm": 45,
+      "compound": null,
+      "location": "ultra lux new superior finishing studio october plaza sodic for rent kitchen acs fully furnished",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503251790.html",
+      "title": "I villa duplex for rent fully finished ultra super lux first use with kitchen and A/C for rent in mountain view chill out park 6 October",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 50000,
+        "period": "Monthly",
+        "raw": "EGP 50,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 280,
+      "compound": null,
+      "location": "I villa duplex for rent fully finished ultra super lux first use with kitchen and A/C for rent in mountain view chill out park 6 October",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503435875.html",
+      "title": "Apartment with garden rent in New Giza Jasper",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 60000,
+        "period": "Monthly",
+        "raw": "EGP 60,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 179,
+      "compound": null,
+      "location": "Apartment with garden rent in New Giza Jasper",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503453093.html",
+      "title": "Apartment for rent in Dream Land October fully furnished , Near Owest , New Giza , Palm Hills Palm Parks , Sheikh Zayed and Beverly Hills",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 22000,
+        "period": "Monthly",
+        "raw": "EGP 22,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "area_sqm": 90,
+      "compound": "Apartment for rent in Dream Land October fully furnished",
+      "location": "Near Owest, New Giza, Palm Hills Palm Parks, Sheikh Zayed and Beverly Hills",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503439118.html",
+      "title": "Apartment for rent in Palm Parks Palm HillsApartment for rent in Palm Parks October for Palm Hills BUA : 90m 1 Bedroom 1 Bathroom Reception Terra",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 35000,
+        "period": "Monthly",
+        "raw": "EGP 35,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 153,
+      "compound": null,
+      "location": "Apartment for rent in Palm Parks Palm HillsApartment for rent in Palm Parks October for Palm Hills BUA : 90m 1 Bedroom 1 Bathroom Reception Terra",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503444034.html",
+      "title": "For rent, furnished apartment in Janna October compound, prime location",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 27000,
+        "period": "Monthly",
+        "raw": "EGP 27,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 140,
+      "compound": "For rent",
+      "location": "furnished apartment in Janna October compound, prime location",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503064769.html",
+      "title": "Prime Villa Fully Furnished With Private Pool For Rent Hyde Park",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 168000,
+        "period": "Monthly",
+        "raw": "EGP 168,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area_sqm": 400,
+      "compound": "Hyde Park Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503446168.html",
+      "title": "First Use Luxury Townhouse for Rent in Palm Parks",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 90000,
+        "period": "Monthly",
+        "raw": "EGP 90,000"
+      },
+      "property_type": "Townhouse",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "area_sqm": 221,
+      "compound": "Palm Parks Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503435508.html",
+      "title": "Apartment for rent at Owest near of new giza palm parks waslet dahshour baverlly hills elshikh zayed city",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 30000,
+        "period": "Monthly",
+        "raw": "EGP 30,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 162,
+      "compound": null,
+      "location": "Apartment for rent at Owest near of new giza palm parks waslet dahshour baverlly hills elshikh zayed city",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503411633.html",
+      "title": "Roof for rent in Tulwa_Owest",
+      "area": "6th_of_october",
+      "page": 3,
+      "price": {
+        "amount_egp": 13000,
+        "period": "Monthly",
+        "raw": "EGP 13,000"
+      },
+      "property_type": null,
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area_sqm": 30,
+      "compound": "O West Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:08"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503419614.html",
+      "title": "Furnished Studio for Rent in Dream Land Compound",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 19000,
+        "period": "Monthly",
+        "raw": "EGP 19,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area_sqm": 67,
+      "compound": "Dreamland Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503401526.html",
+      "title": "Apartment for rent in Palm Parks Extension Compound 90 m Super Lux finishing",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 30000,
+        "period": "Monthly",
+        "raw": "EGP 30,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area_sqm": 90,
+      "compound": "Palm Parks Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503436740.html",
+      "title": "Townhouse 250m for rent at Golf Views Palm hills",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 120000,
+        "period": "Monthly",
+        "raw": "EGP 120,000"
+      },
+      "property_type": "Townhouse",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area_sqm": 250,
+      "compound": "Palm hills golf views Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503439321.html",
+      "title": "Apartment with garden for Rent at Palm Parks",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 27000,
+        "period": "Monthly",
+        "raw": "EGP 27,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area_sqm": 93,
+      "compound": "Palm Parks Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502796896.html",
+      "title": "For rent, a furnished apartment in front of Mall of Arabia.",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 2000,
+        "period": "Daily",
+        "raw": "EGP 2,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 160,
+      "compound": "Syaheia 1",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502887620.html",
+      "title": "For rent, a furnished apartment in front of Mall of Arabia in the Villas area.",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 2000,
+        "period": "Daily",
+        "raw": "EGP 2,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 150,
+      "compound": "Syaheia 1",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503315900.html",
+      "title": "Ground floor apartment with garden for rent in Palm Parks Compound – 3 bedrooms, fully finished",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 50000,
+        "period": "Monthly",
+        "raw": "EGP 50,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 285,
+      "compound": "Palm Parks Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503398596.html",
+      "title": "Ground Duplex with Garden for rent in O west phase tulwa 263m",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 50000,
+        "period": "Monthly",
+        "raw": "EGP 50,000"
+      },
+      "property_type": "Duplex",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "area_sqm": 263,
+      "compound": "O West Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503466248.html",
+      "title": "A fully furnished apartment - 140 m - for rent in Jannat October",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 34000,
+        "period": "Monthly",
+        "raw": "EGP 34,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 140,
+      "compound": null,
+      "location": "A fully furnished apartment - 140 m - for rent in Jannat October",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503156889.html",
+      "title": "Apartment for Rent in Badya – Palm Hills",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 25000,
+        "period": "Monthly",
+        "raw": "EGP 25,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "area_sqm": 145,
+      "compound": "Badya Palm Hills Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503010414.html",
+      "title": "For Rent | Modern Villa in Nyoum October – First Use & Prime Living",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 25000,
+        "period": "Monthly",
+        "raw": "EGP 25,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 151,
+      "compound": null,
+      "location": "Modern Villa in Nyoum October – First Use & Prime Living",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502230275.html",
+      "title": "Furnished penthouse in Mountain View Chillout",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 45000,
+        "period": "Monthly",
+        "raw": "EGP 45,000"
+      },
+      "property_type": "Penthouse",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 166,
+      "compound": "Mountain View Chillout Park Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503238212.html",
+      "title": "Townhouse for Rent in O West",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 60000,
+        "period": "Monthly",
+        "raw": "EGP 60,000"
+      },
+      "property_type": "Townhouse",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "area_sqm": 200,
+      "compound": "O West Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503333081.html",
+      "title": "An empty apartment for rent in Ramo Compound in the distinguished neighborhood.",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 13000,
+        "period": "Monthly",
+        "raw": "EGP 13,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 128,
+      "compound": "Al Motamayez District",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503318038.html",
+      "title": "Luxury Villa for Rent in Al Rabwa Compound – Prime Location on Golf – 700 sqm Total – Fully Furnished",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 135000,
+        "period": "Monthly",
+        "raw": "EGP 135,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 700,
+      "compound": "Al Rabwa Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503286843.html",
+      "title": "villa for rent grandhights compouned fully finished",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 50000,
+        "period": "Monthly",
+        "raw": "EGP 50,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "area_sqm": 400,
+      "compound": "Grand Heights",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503465275.html",
+      "title": "Apartment for rent in the Fourth Tourist District 225 sqm",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 20500,
+        "period": "Monthly",
+        "raw": "EGP 20,500"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 225,
+      "compound": "Syaheia 4",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503465188.html",
+      "title": "Luxury Furnished studio in Palm Parks-Palm Hills",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 45000,
+        "period": "Monthly",
+        "raw": "EGP 45,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": null,
+      "area_sqm": 110,
+      "compound": "Palm Parks Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503464892.html",
+      "title": "A golden opportunity for rent. A luxurious commercial headquarters in an unmatched location! Seize now the perfect place for your business in the heart of 6th of October City, where luxury meets successful investment! The best location: 7th District – steps from El Hosary Square (the beating heart of October), inside a luxurious commercial mall that guarantees you a...",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 70000,
+        "period": "Monthly",
+        "raw": "EGP 70,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 11,
+      "bathrooms": 11,
+      "area_sqm": 600,
+      "compound": "A golden opportunity for rent. A luxurious commercial headquarters in an unmatched location! Seize now the perfect place for your business in the heart of 6th of October City",
+      "location": "where luxury meets successful investment! The best location: 7th District – steps from El Hosary Square (the beating heart of October), inside a luxurious commercial mall that guarantees you a...",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503464808.html",
+      "title": "Amazing townhouse Fully finished with appliances and kitchen for rent in Mena garden city 6 October city",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 50000,
+        "period": "Monthly",
+        "raw": "EGP 50,000"
+      },
+      "property_type": "Townhouse",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 254,
+      "compound": null,
+      "location": "Amazing townhouse Fully finished with appliances and kitchen for rent in Mena garden city 6 October city",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503464539.html",
+      "title": "Furnished standalone in Golf extension-Palm Hills",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 130000,
+        "period": "Monthly",
+        "raw": "EGP 130,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "area_sqm": 350,
+      "compound": "Palm hills golf extension Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503464461.html",
+      "title": "Luxury villa for rent in The Crown-Palm Hills",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 120000,
+        "period": "Monthly",
+        "raw": "EGP 120,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area_sqm": 218,
+      "compound": "The Crown Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503464271.html",
+      "title": "Semi-furnished Standalone in Golf extension-Palm Hills",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 130000,
+        "period": "Monthly",
+        "raw": "EGP 130,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 280,
+      "compound": "Palm hills golf extension Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503461741.html",
+      "title": "Double Studio for rent in 6th of October, First District",
+      "area": "6th_of_october",
+      "page": 4,
+      "price": {
+        "amount_egp": 6500,
+        "period": "Monthly",
+        "raw": "EGP 6,500"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area_sqm": 30,
+      "compound": "Double Studio for rent in 6th of October",
+      "location": "First District",
+      "scraped_at": "2026-05-05T08:47:13"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503461385.html",
+      "title": "Townhouse for rent at o west , Ac and kitchen",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 70000,
+        "period": "Monthly",
+        "raw": "EGP 70,000"
+      },
+      "property_type": "Townhouse",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 315,
+      "compound": "O West Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503461232.html",
+      "title": "Apartment for rent in icity mountain view full view of the club",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 45000,
+        "period": "Monthly",
+        "raw": "EGP 45,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 100,
+      "compound": "Mountain View iCity Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503461225.html",
+      "title": "For Rent Twin House in New Giza",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 130000,
+        "period": "Monthly",
+        "raw": "EGP 130,000"
+      },
+      "property_type": "Twin House",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area_sqm": 340,
+      "compound": null,
+      "location": "For Rent Twin House in New Giza",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503461127.html",
+      "title": "Ground Floor Furnished Apartment for Rent in October Plaza Sodic | 160 sqm, 2 Bedrooms, Pool View, Fully Equipped, Prime Location",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 50000,
+        "period": "Monthly",
+        "raw": "EGP 50,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 160,
+      "compound": null,
+      "location": "Ground Floor Furnished Apartment for Rent in October Plaza Sodic",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503439013.html",
+      "title": "Twin House For Rent with Private Pool in Hyde Park",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 140000,
+        "period": "Monthly",
+        "raw": "EGP 140,000"
+      },
+      "property_type": "Twin House",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "area_sqm": 400,
+      "compound": "Hyde Park Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503313446.html",
+      "title": "Duplex with kitchen for Rent in Tulwa",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 50000,
+        "period": "Monthly",
+        "raw": "EGP 50,000"
+      },
+      "property_type": "Duplex",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area_sqm": 263,
+      "compound": "O West Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503311645.html",
+      "title": "Palm Pars: 2-bedroom ground-floor apartment for rent in Garden, 150 sqm, in one of the most prestigious Palm Hills projects in October Prime Location.",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 40000,
+        "period": "Monthly",
+        "raw": "EGP 40,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 150,
+      "compound": "Palm Pars: 2-bedroom ground-floor apartment for rent in Garden",
+      "location": "150 sqm, in one of the most prestigious Palm Hills projects in October Prime Location.",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503179777.html",
+      "title": "Prime Location Standalone for rent in Green Hills",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 100000,
+        "period": "Monthly",
+        "raw": "EGP 100,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 6,
+      "bathrooms": 6,
+      "area_sqm": 600,
+      "compound": "Green Hills",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503070510.html",
+      "title": "Furnished apartment for rent in Badya Palm Hills compound, modern furniture near MSA University and Al-Wahat Road and Al-Fayoum Road, 147m",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 30000,
+        "period": "Monthly",
+        "raw": "EGP 30,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "area_sqm": 147,
+      "compound": "Badya Palm Hills Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502795981.html",
+      "title": "Modern 2-Bedroom Apartment for Rent in O West – Tulwa",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 35000,
+        "period": "Monthly",
+        "raw": "EGP 35,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "area_sqm": 143,
+      "compound": "O West Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503460823.html",
+      "title": "Townhouse for Rent ,Fully Finished ,Kitchen Appliences & AC's,Wardrobes 210 sqm in O West.",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 65000,
+        "period": "Monthly",
+        "raw": "EGP 65,000"
+      },
+      "property_type": "Townhouse",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 210,
+      "compound": "O West Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503459833.html",
+      "title": "Luxury Furnished Apartment for Rent in Aeon Towers Marakez Prime Location",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 100000,
+        "period": "Monthly",
+        "raw": "EGP 100,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "area_sqm": 167,
+      "compound": "Aeon Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503185638.html",
+      "title": "Luxury 3-Bedroom Hotel Apartment + Nanny’s Room – AEON Marakez, Sheikh Zayed (Behind Mall of Arabia)",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 129000,
+        "period": "Monthly",
+        "raw": "EGP 129,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 200,
+      "compound": "Luxury 3-Bedroom Hotel Apartment + Nanny’s Room – AEON Marakez",
+      "location": "Sheikh Zayed (Behind Mall of Arabia)",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503185632.html",
+      "title": "Luxury 2-Bedroom Hotel Apartment – AEON Marakez, Sheikh Zayed (Behind Mall of Arabia)",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 95000,
+        "period": "Monthly",
+        "raw": "EGP 95,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "area_sqm": 160,
+      "compound": "Luxury 2-Bedroom Hotel Apartment – AEON Marakez",
+      "location": "Sheikh Zayed (Behind Mall of Arabia)",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503185624.html",
+      "title": "Luxury Hotel Suite 1BR with Dressing Room – AEON Marakez, Sheikh Zayed (Behind Mall of Arabia)",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 72000,
+        "period": "Monthly",
+        "raw": "EGP 72,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": 2,
+      "area_sqm": 120,
+      "compound": "Luxury Hotel Suite 1BR with Dressing Room – AEON Marakez",
+      "location": "Sheikh Zayed (Behind Mall of Arabia)",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502987430.html",
+      "title": "Fully Furnished Apartment for Rent – Aeon Towers | Marakez Behind Mall of Arabia Area: 176 sqm Floor: 6th floor ultra super deluxe",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 90000,
+        "period": "Monthly",
+        "raw": "EGP 90,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "area_sqm": 176,
+      "compound": "Aeon Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502595078.html",
+      "title": "3BR Fully Furnished Luxury Apartment with Nanny’s Room for families (Daily Rental) in AEON Marakez – 6th of October",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 130000,
+        "period": "Monthly",
+        "raw": "EGP 130,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 200,
+      "compound": null,
+      "location": "3BR Fully Furnished Luxury Apartment with Nanny’s Room for families (Daily Rental) in AEON Marakez – 6th of October",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503459915.html",
+      "title": "Fourth tourist rental apartment in front of the club on Dahshur Link",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 21000,
+        "period": "Monthly",
+        "raw": "EGP 21,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 250,
+      "compound": "Al Motamayez District",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503452876.html",
+      "title": "Apartment for Rent – West Somid – 6th of October-Near the 26th of July Axis Dahshur Connection",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 25000,
+        "period": "Monthly",
+        "raw": "EGP 25,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 250,
+      "compound": null,
+      "location": "Apartment for Rent – West Somid – 6th of October-Near the 26th of July Axis Dahshur Connection",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503202647.html",
+      "title": "200 sqm apartment in Garden Hills Compound in Northern Extensions, October",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 16000,
+        "period": "Monthly",
+        "raw": "EGP 16,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 200,
+      "compound": "200 sqm apartment in Garden Hills Compound in Northern Extensions",
+      "location": "October",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502749540.html",
+      "title": "Furnished villa for rent in Grand heights Compound",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 80000,
+        "period": "Monthly",
+        "raw": "EGP 80,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 6,
+      "area_sqm": 410,
+      "compound": "Grand Heights",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502661197.html",
+      "title": "Studio for rent in Porto October Nyoum October",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 12000,
+        "period": "Monthly",
+        "raw": "EGP 12,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": null,
+      "area_sqm": 36,
+      "compound": null,
+      "location": "Studio for rent in Porto October Nyoum October",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503456921.html",
+      "title": "Apartment for rent in 6th of October City, First District",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 22000,
+        "period": "Monthly",
+        "raw": "EGP 22,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_sqm": 75,
+      "compound": "Apartment for rent in 6th of October City",
+      "location": "First District",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503456669.html",
+      "title": "Prime location Apartment with appliances in City View",
+      "area": "6th_of_october",
+      "page": 5,
+      "price": {
+        "amount_egp": 35000,
+        "period": "Monthly",
+        "raw": "EGP 35,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 156,
+      "compound": "City View Compound",
+      "location": "6th of October, Giza",
+      "scraped_at": "2026-05-05T08:47:19"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503458485.html",
+      "title": "Furnished Apartment for Rent in The Address Sheikh Zayed – Second Floor Near the Club",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 43000,
+        "period": "Monthly",
+        "raw": "EGP 43,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 109,
+      "compound": null,
+      "location": "Furnished Apartment for Rent in The Address Sheikh Zayed – Second Floor Near the Club",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503455529.html",
+      "title": "2 bedrooms Apartment for rent in Zed West- Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 4200,
+        "period": "Daily",
+        "raw": "EGP 4,200"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 125,
+      "compound": null,
+      "location": "2 bedrooms Apartment for rent in Zed West- Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503454391.html",
+      "title": "apartment for Rent in Jannah Zayed 2 compound",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 17000,
+        "period": "Monthly",
+        "raw": "EGP 17,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 140,
+      "compound": null,
+      "location": "apartment for Rent in Jannah Zayed 2 compound",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503443192.html",
+      "title": "Modern Furnished Apartment for Rent in Zed West Sheikh Zayed – Fifth Floor",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 60000,
+        "period": "Monthly",
+        "raw": "EGP 60,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 120,
+      "compound": null,
+      "location": "Modern Furnished Apartment for Rent in Zed West Sheikh Zayed – Fifth Floor",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502867199.html",
+      "title": "Villa for rent in Rabwa, fully furnished and equip",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 120000,
+        "period": "Monthly",
+        "raw": "EGP 120,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area_sqm": 360,
+      "compound": "Al Rabwa",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502969345.html",
+      "title": "Excellent location in Sheikh Zayed, a furnished apartment with a garden for daily and monthly rent.",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 3200,
+        "period": "Daily",
+        "raw": "EGP 3,200"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 160,
+      "compound": "Excellent location in Sheikh Zayed",
+      "location": "a furnished apartment with a garden for daily and monthly rent.",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503431663.html",
+      "title": "apartment for Rent in Jannah Zayed 2 compound",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 14000,
+        "period": "Monthly",
+        "raw": "EGP 14,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 130,
+      "compound": null,
+      "location": "apartment for Rent in Jannah Zayed 2 compound",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503423707.html",
+      "title": "Apartment for Rent in Casa Beverly Hills – Second Floor with Elevator",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 35000,
+        "period": "Monthly",
+        "raw": "EGP 35,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 120,
+      "compound": "Casa Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503418884.html",
+      "title": "Duplex for rent, first time occupancy, hotel finishing with kitchen in the compound Opera City - area 314 m - Al Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 39000,
+        "period": "Monthly",
+        "raw": "EGP 39,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area_sqm": 314,
+      "compound": "Duplex for rent",
+      "location": "first time occupancy, hotel finishing with kitchen in the compound Opera City - area 314 m - Al Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503459490.html",
+      "title": "Furnished Apartment for Rent in Rawdat Zayed – First Floor",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 20000,
+        "period": "Monthly",
+        "raw": "EGP 20,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_sqm": 70,
+      "compound": null,
+      "location": "Furnished Apartment for Rent in Rawdat Zayed – First Floor",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503453901.html",
+      "title": "Townhouse for Rent at Patio Al Zahraa, Sheikh Zayed next to Allegria Sodic, Beverly Hills, Etapa,Royal Meadows-15 mins from Palm Hills and New Giza",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 65000,
+        "period": "Monthly",
+        "raw": "EGP 65,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "area_sqm": 230,
+      "compound": "Townhouse for Rent at Patio Al Zahraa",
+      "location": "Sheikh Zayed next to Allegria Sodic, Beverly Hills, Etapa, Royal Meadows-15 mins from Palm Hills and New Giza",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503409568.html",
+      "title": "Unfurnished apartment for rent in Al Mostakbal Buildings 73 meters 2nd floor in Sheikh Zayed City",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 9500,
+        "period": "Monthly",
+        "raw": "EGP 9,500"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_sqm": 73,
+      "compound": null,
+      "location": "Unfurnished apartment for rent in Al Mostakbal Buildings 73 meters 2nd floor in Sheikh Zayed City",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-204952615.html",
+      "title": "Furnished villa with private swimming pool",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 20000,
+        "period": "Daily",
+        "raw": "EGP 20,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area_sqm": 600,
+      "compound": "Sheikh Zayed",
+      "location": "Giza",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503422929.html",
+      "title": "Apartment for Rent in Jannah Zayed 2 – Front-Facing with Kitchen & ACs",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 20000,
+        "period": "Monthly",
+        "raw": "EGP 20,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 130,
+      "compound": null,
+      "location": "Apartment for Rent in Jannah Zayed 2 – Front-Facing with Kitchen & ACs",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503424669.html",
+      "title": "Apartment For Rent At casa Fully Finished",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 40000,
+        "period": "Monthly",
+        "raw": "EGP 40,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 120,
+      "compound": "Casa Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503461336.html",
+      "title": "Apartment for rent in Sheikh Zayed Beverly Hills West Town",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 45000,
+        "period": "Monthly",
+        "raw": "EGP 45,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "area_sqm": 152,
+      "compound": null,
+      "location": "Apartment for rent in Sheikh Zayed Beverly Hills West Town",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503463084.html",
+      "title": "Licensed furnished apartment for rent, 130 m² – fully open views",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 30000,
+        "period": "Monthly",
+        "raw": "EGP 30,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 130,
+      "compound": "Dar Misr",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503464117.html",
+      "title": "Furnished apartment for rent with a garden + master bedroom with dressing room",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 45000,
+        "period": "Monthly",
+        "raw": "EGP 45,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 180,
+      "compound": "8th District",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503453984.html",
+      "title": "For rent short term or annual contract furnished in Zayed [Compound Janna Zayed 1] area of 130 meters",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 32000,
+        "period": "Monthly",
+        "raw": "EGP 32,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 130,
+      "compound": null,
+      "location": "For rent short term or annual contract furnished in Zayed [Compound Janna Zayed 1] area of 130 meters",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503452212.html",
+      "title": "Furnished apartment for rent with ACs + private entrance",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 28000,
+        "period": "Monthly",
+        "raw": "EGP 28,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "area_sqm": 180,
+      "compound": "7th District",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502723645.html",
+      "title": "Furnished palace for daily rent in Sheikh Zayed suitable for families",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 35000,
+        "period": "Daily",
+        "raw": "EGP 35,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "area_sqm": 3000,
+      "compound": null,
+      "location": "Furnished palace for daily rent in Sheikh Zayed suitable for families",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502625805.html",
+      "title": "Daily rental villa with hotel furnishings in Sheikh Zayed, Al-Qusour neighborhood",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 15000,
+        "period": "Daily",
+        "raw": "EGP 15,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area_sqm": 1198,
+      "compound": "Daily rental villa with hotel furnishings in Sheikh Zayed",
+      "location": "Al-Qusour neighborhood",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503451135.html",
+      "title": "A bargain apartment for rent in Al-Khamayel Compound, Sheikh Zayed (Al-Khamayel)",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 24000,
+        "period": "Monthly",
+        "raw": "EGP 24,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 167,
+      "compound": "A bargain apartment for rent in Al-Khamayel Compound",
+      "location": "Sheikh Zayed (Al-Khamayel)",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502647747.html",
+      "title": "Furnished apartment for rent in Beverly Hills compound الشيخ زايد elsheikh zayed",
+      "area": "sheikh_zayed",
+      "page": 1,
+      "price": {
+        "amount_egp": 5000,
+        "period": "Daily",
+        "raw": "EGP 5,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 140,
+      "compound": null,
+      "location": "Furnished apartment for rent in Beverly Hills compound الشيخ زايد elsheikh zayed",
+      "scraped_at": "2026-05-05T08:47:26"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503452006.html",
+      "title": "Fully Furnished Roof Studio for Rent In Zayed Regency Compound",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 22000,
+        "period": "Monthly",
+        "raw": "EGP 22,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area_sqm": 100,
+      "compound": null,
+      "location": "Fully Furnished Roof Studio for Rent In Zayed Regency Compound",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503450405.html",
+      "title": "Studio for Rent in ZED Towers Brand New Fully Furnished Hotel Services",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 50000,
+        "period": "Monthly",
+        "raw": "EGP 50,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area_sqm": 60,
+      "compound": "ZED West Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503112500.html",
+      "title": "Luxury Villa with Private Garden & Swimming Pool – Beverly Hills | Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 17000,
+        "period": "Daily",
+        "raw": "EGP 17,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "area_sqm": 800,
+      "compound": null,
+      "location": "Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503463145.html",
+      "title": "Apartment for rent at a bargain price in Sheikh Zayed, District Seven",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 15000,
+        "period": "Monthly",
+        "raw": "EGP 15,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 160,
+      "compound": "Apartment for rent at a bargain price in Sheikh Zayed",
+      "location": "District Seven",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503450270.html",
+      "title": "ZED Towers Apartment 135m Fully Furnished Prime Location G+20",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 60000,
+        "period": "Monthly",
+        "raw": "EGP 60,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "area_sqm": 135,
+      "compound": "ZED West Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503450190.html",
+      "title": "Fully Furnished Ultra Super Lux Apartment for Rent in Zayed Regency Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 60000,
+        "period": "Monthly",
+        "raw": "EGP 60,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 200,
+      "compound": null,
+      "location": "Fully Furnished Ultra Super Lux Apartment for Rent in Zayed Regency Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503449147.html",
+      "title": "Luxury furnished villa for rent with high-end hotel-style finishing. First occupancy, ground floor, first floor, and second floor, located in Continen",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 80000,
+        "period": "Monthly",
+        "raw": "EGP 80,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area_sqm": 280,
+      "compound": "Continental Residence Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503445754.html",
+      "title": "Furnished Villa for Rent in Beverly Hills Phase 2 Private Garden & Basement Parking",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 190000,
+        "period": "Monthly",
+        "raw": "EGP 190,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 4,
+      "area_sqm": 300,
+      "compound": "Beverly Hills Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503446327.html",
+      "title": "Apartment for rent at ZED west Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 27000,
+        "period": "Monthly",
+        "raw": "EGP 27,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 105,
+      "compound": null,
+      "location": "Apartment for rent at ZED west Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503140863.html",
+      "title": "Prime Rental | Apartment in Zayed Dunes – 198m",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 37000,
+        "period": "Monthly",
+        "raw": "EGP 37,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 198,
+      "compound": null,
+      "location": "Apartment in Zayed Dunes – 198m",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503297591.html",
+      "title": "Furnished and air-conditioned apartment for rent in Phase 2 of Al-Hadaba, a very prime location in Al-Khamayel Compound, Sheikh Zayed.",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 29000,
+        "period": "Monthly",
+        "raw": "EGP 29,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 174,
+      "compound": "Furnished and air-conditioned apartment for rent in Phase 2 of Al-Hadaba",
+      "location": "a very prime location in Al-Khamayel Compound, Sheikh Zayed.",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503438988.html",
+      "title": "Duplex for rent, first occupancy, hotel-style finishing in Opera City Compound Next to Al Moez Mall and Zed Park",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 39000,
+        "period": "Monthly",
+        "raw": "EGP 39,000"
+      },
+      "property_type": "Duplex",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area_sqm": 314,
+      "compound": "Opera City Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503440688.html",
+      "title": "Furnished Apartment for Rent 80 sqm with Roof + Fully Open Views",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 22000,
+        "period": "Monthly",
+        "raw": "EGP 22,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_sqm": 80,
+      "compound": "9th District",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503298570.html",
+      "title": "Furnished apartment for daily or monthly rent in Sheikh Zayed, a very prime location next to Arkan Mall.",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 4000,
+        "period": "Daily",
+        "raw": "EGP 4,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 170,
+      "compound": "Furnished apartment for daily or monthly rent in Sheikh Zayed",
+      "location": "a very prime location next to Arkan Mall.",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503448139.html",
+      "title": "Duplex for Rent – Westown Sodic, Beverly Hills, Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 65000,
+        "period": "Monthly",
+        "raw": "EGP 65,000"
+      },
+      "property_type": "Duplex",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 245,
+      "compound": "Duplex for Rent – Westown Sodic",
+      "location": "Beverly Hills, Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503443213.html",
+      "title": "Ground Floor Apartment with Garden for Rent – Beverly Hills Phase 1 – Sheikh Zayed A spacious ground floor apartment with a private garden in Beverly Hills Compound, Phase 1, located in a prime area",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 35000,
+        "period": "Monthly",
+        "raw": "EGP 35,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 180,
+      "compound": "Ground Floor Apartment with Garden for Rent – Beverly Hills Phase 1 – Sheikh Zayed A spacious ground floor apartment with a private garden in Beverly Hills Compound",
+      "location": "Phase 1, located in a prime area",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503287670.html",
+      "title": "For Rent Fully Furnished Standalone Villa Allegria with swimming pool Sodic sheikh zayed",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 156400,
+        "period": "Monthly",
+        "raw": "EGP 156,400"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area_sqm": 386,
+      "compound": null,
+      "location": "For Rent Fully Furnished Standalone Villa Allegria with swimming pool Sodic sheikh zayed",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503434824.html",
+      "title": "Furnished and air-conditioned apartment for rent in Phase 3A, 170 square meters, super deluxe finishing, in Elkhmayel Compound, Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 45000,
+        "period": "Monthly",
+        "raw": "EGP 45,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 170,
+      "compound": "Furnished and air-conditioned apartment for rent in Phase 3A",
+      "location": "170 square meters, super deluxe finishing, in Elkhmayel Compound, Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503439254.html",
+      "title": "Licensed apartment for rent with a garden – fully air-conditioned",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 47000,
+        "period": "Monthly",
+        "raw": "EGP 47,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 190,
+      "compound": "El Khamayel Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502723916.html",
+      "title": "Furnished villa with a swimming pool for daily rent in Sheikh Zayed, Palm Hills compound",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 17000,
+        "period": "Daily",
+        "raw": "EGP 17,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area_sqm": 1200,
+      "compound": "Furnished villa with a swimming pool for daily rent in Sheikh Zayed",
+      "location": "Palm Hills compound",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503439100.html",
+      "title": "Villa for rent, 150 sqm – fully open views",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 15000,
+        "period": "Monthly",
+        "raw": "EGP 15,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 150,
+      "compound": "Zayed Gardens Villas",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503433581.html",
+      "title": "Apartment for Rent with Master Bedroom + Fully Air Conditioned",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 32000,
+        "period": "Monthly",
+        "raw": "EGP 32,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 170,
+      "compound": "Beverly Hills Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503434360.html",
+      "title": "Apartment for rent in Phase 4, super deluxe finishing, 170 square meters, in Elkhmayel Compound, Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 20000,
+        "period": "Monthly",
+        "raw": "EGP 20,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 170,
+      "compound": "Apartment for rent in Phase 4",
+      "location": "super deluxe finishing, 170 square meters, in Elkhmayel Compound, Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503437547.html",
+      "title": "Apartment for rent in Al-Khamail Compound, Elkhmayel, Sheikh Zayed (Al-Khamail)",
+      "area": "sheikh_zayed",
+      "page": 2,
+      "price": {
+        "amount_egp": 20000,
+        "period": "Monthly",
+        "raw": "EGP 20,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 167,
+      "compound": "Apartment for rent in Al-Khamail Compound",
+      "location": "Elkhmayel, Sheikh Zayed (Al-Khamail)",
+      "scraped_at": "2026-05-05T08:47:34"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503435554.html",
+      "title": "Fully furnished apartment for rent in The Address, 112 sqm, 3 bedrooms, 2 bathrooms, modern furniture, prime location, ready to move",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 42000,
+        "period": "Monthly",
+        "raw": "EGP 42,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 112,
+      "compound": "The Address",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503434664.html",
+      "title": "Apartment for rent with kitchen and air conditioning in El Khmayel Compound - Sheikh Zayed (El Khmayel)",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 23000,
+        "period": "Monthly",
+        "raw": "EGP 23,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "area_sqm": 220,
+      "compound": null,
+      "location": "Apartment for rent with kitchen and air conditioning in El Khmayel Compound - Sheikh Zayed (El Khmayel)",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503367345.html",
+      "title": "Villa Corner For Rent In Beverly Hills",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 80000,
+        "period": "Monthly",
+        "raw": "EGP 80,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area_sqm": 330,
+      "compound": "Beverly Hills Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503446707.html",
+      "title": "Apartment for rent in Al-Khamail Compound, Phase One, area 186 m, second floor, super luxury finishing.",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 20000,
+        "period": "Monthly",
+        "raw": "EGP 20,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 186,
+      "compound": "El Khamayel Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503436170.html",
+      "title": "A fully furnished apartment for rent with high-end modern furniture and finishing, fully air-conditioned, located in the first phase of El Khamael Com",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 26000,
+        "period": "Monthly",
+        "raw": "EGP 26,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 152,
+      "compound": "El Khamayel Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503453931.html",
+      "title": "Apartment for rent in the Tenth District on Al-Bustan Street in front of Spain Plaza",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 17000,
+        "period": "Monthly",
+        "raw": "EGP 17,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 150,
+      "compound": "10th District",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503431044.html",
+      "title": "for rent apartment Fully furnished in The Address Compound-Sheikh Zayed-next to Saudi Market",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 45000,
+        "period": "Monthly",
+        "raw": "EGP 45,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 134,
+      "compound": null,
+      "location": "for rent apartment Fully furnished in The Address Compound-Sheikh Zayed-next to Saudi Market",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503446723.html",
+      "title": "Upper duplex rent in Westown sodic Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 60000,
+        "period": "Monthly",
+        "raw": "EGP 60,000"
+      },
+      "property_type": "Duplex",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 250,
+      "compound": null,
+      "location": "Upper duplex rent in Westown sodic Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503428688.html",
+      "title": "Furnished apartment for rent with modern high-end finishing and furniture, fully air-conditioned, located in Phase 1 of Al Khamayel Compound, Sheikh Z",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 25000,
+        "period": "Monthly",
+        "raw": "EGP 25,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 141,
+      "compound": "El Khamayel Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503464727.html",
+      "title": "A great deal on a 170m² apartment for rent on the first floor in Al Khamael Compound, Sheikh Zayed.",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 20000,
+        "period": "Monthly",
+        "raw": "EGP 20,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 143,
+      "compound": "A great deal on a 170m² apartment for rent on the first floor in Al Khamael Compound",
+      "location": "Sheikh Zayed.",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503444955.html",
+      "title": "Furnished apartment for rent with modern high-end furniture and finishing, fully air-conditioned, located in Phase 2 of Al Khamayel Compound, El Sheik",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 30000,
+        "period": "Monthly",
+        "raw": "EGP 30,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 170,
+      "compound": "El Khamayel Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503457695.html",
+      "title": "A distinctive furnished apartment for rent, 150 square meters with a 75 square meter garden, in Al Khamael Compound, Sheikh Zayed.",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 33000,
+        "period": "Monthly",
+        "raw": "EGP 33,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 150,
+      "compound": "A distinctive furnished apartment for rent",
+      "location": "150 square meters with a 75 square meter garden, in Al Khamael Compound, Sheikh Zayed.",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503462743.html",
+      "title": "Licensed apartment for rent – 120 sqm – fully open views",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 15000,
+        "period": "Monthly",
+        "raw": "EGP 15,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_sqm": 120,
+      "compound": "3rd District",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503437928.html",
+      "title": "A great deal on a 170 sqm apartment for rent in Phase 4, second floor, in Elkhmayel Compound, Sheikh Zayed. Super deluxe finishing.",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 20000,
+        "period": "Monthly",
+        "raw": "EGP 20,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 170,
+      "compound": "A great deal on a 170 sqm apartment for rent in Phase 4",
+      "location": "second floor, in Elkhmayel Compound, Sheikh Zayed. Super deluxe finishing.",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503421503.html",
+      "title": "For rent, an apartment with a kitchen and air conditioning in Zaid Park, 168 sqm, first occupancy with a landscape view.",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 37000,
+        "period": "Monthly",
+        "raw": "EGP 37,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 168,
+      "compound": "ZED West Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503459969.html",
+      "title": "Apartment for rent in Phase 2 of Al-Hadaba, super deluxe finishing, 210 square meters, in Al-Khamayel Compound, Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 35000,
+        "period": "Monthly",
+        "raw": "EGP 35,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area_sqm": 210,
+      "compound": "Apartment for rent in Phase 2 of Al-Hadaba",
+      "location": "super deluxe finishing, 210 square meters, in Al-Khamayel Compound, Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503436810.html",
+      "title": "Apartment for rent in Sheikh Zayed, small investor",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 16000,
+        "period": "Monthly",
+        "raw": "EGP 16,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 150,
+      "compound": "Apartment for rent in Sheikh Zayed",
+      "location": "small investor",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503401992.html",
+      "title": "Luxurious Twin House for rent in Westown Beverly hills",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 90000,
+        "period": "Monthly",
+        "raw": "EGP 90,000"
+      },
+      "property_type": "Twin House",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area_sqm": 365,
+      "compound": "Sodic Westown Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503457477.html",
+      "title": "A great deal on a 170m² apartment for rent in Al Khamael Compound, Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 23000,
+        "period": "Monthly",
+        "raw": "EGP 23,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 170,
+      "compound": "A great deal on a 170m² apartment for rent in Al Khamael Compound",
+      "location": "Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503444458.html",
+      "title": "At a special price for rent, a 150m apartment with super lux finishes inside Al-Khamail Compound, Sheikh Zayed.",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 15000,
+        "period": "Monthly",
+        "raw": "EGP 15,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 150,
+      "compound": "At a special price for rent",
+      "location": "a 150m apartment with super lux finishes inside Al-Khamail Compound, Sheikh Zayed.",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503464069.html",
+      "title": "Duplex villa at the highest level of finishing",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 40000,
+        "period": "Monthly",
+        "raw": "EGP 40,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area_sqm": 500,
+      "compound": "Sama Zayed",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503264408.html",
+      "title": "apartment for rent in The Address compound, first occupancy, finished and furnished with hotel-style furniture.",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 45000,
+        "period": "Monthly",
+        "raw": "EGP 45,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_sqm": 112,
+      "compound": "The Address",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503172042.html",
+      "title": "Villa for daily rent, special furnishings, first occupancy, compound in Beverly Hills for families.",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 15000,
+        "period": "Daily",
+        "raw": "EGP 15,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area_sqm": 1200,
+      "compound": "Beverly Hills Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503435090.html",
+      "title": "Licensed furnished apartment for rent with open views",
+      "area": "sheikh_zayed",
+      "page": 3,
+      "price": {
+        "amount_egp": 12500,
+        "period": "Monthly",
+        "raw": "EGP 12,500"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 100,
+      "compound": "1st District",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:40"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503427566.html",
+      "title": "Apartment for rent in El Mostakbiro Al Saghir, Sheikh Zayed, ground floor suitable for residential and administrative use",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 20000,
+        "period": "Monthly",
+        "raw": "EGP 20,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 180,
+      "compound": "Apartment for rent in El Mostakbiro Al Saghir",
+      "location": "Sheikh Zayed, ground floor suitable for residential and administrative use",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503438421.html",
+      "title": "Furnished apartment for daily and monthly rental, ground floor with garden and private entrance, Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 5000,
+        "period": "Daily",
+        "raw": "EGP 5,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 230,
+      "compound": "Furnished apartment for daily and monthly rental",
+      "location": "ground floor with garden and private entrance, Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503281341.html",
+      "title": "apartment 165m in zed west fully furnished",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 70000,
+        "period": "Monthly",
+        "raw": "EGP 70,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 165,
+      "compound": "ZED West Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503423627.html",
+      "title": "For rent: first-time occupancy in El Khamayel, Sheikh Zayed, hotel-style furnished, at an incredible price.",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 35000,
+        "period": "Monthly",
+        "raw": "EGP 35,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 175,
+      "compound": "For rent: first-time occupancy in El Khamayel",
+      "location": "Sheikh Zayed, hotel-style furnished, at an incredible price.",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503112661.html",
+      "title": "Ultra Luxury Villa with Private Garden & Swimming Pool – Beverly Hills Phase 2 | Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 15000,
+        "period": "Daily",
+        "raw": "EGP 15,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "area_sqm": 800,
+      "compound": null,
+      "location": "Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503106740.html",
+      "title": "Spacious Duplex Apartment – Westown Beverly Hills, Near El Nada Hospital",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 6500,
+        "period": "Daily",
+        "raw": "EGP 6,500"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 240,
+      "compound": "Sodic Westown Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503105468.html",
+      "title": "A royal furnished palace for daily rent in Sheikh Zayed, suitable for families and upscale parties.",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 30000,
+        "period": "Daily",
+        "raw": "EGP 30,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 7,
+      "bathrooms": 8,
+      "area_sqm": 4500,
+      "compound": "A royal furnished palace for daily rent in Sheikh Zayed",
+      "location": "suitable for families and upscale parties.",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502969985.html",
+      "title": "Luxury 6-Bedroom Villa with Private Pool & Garden in Royal City – Sheikh Zayed | Premium Living with Full Hospitality Services",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 19000,
+        "period": "Daily",
+        "raw": "EGP 19,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "area_sqm": 800,
+      "compound": null,
+      "location": "Luxury 6-Bedroom Villa with Private Pool & Garden in Royal City – Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503389970.html",
+      "title": "Furnished Apartment for Rent 185 sqm - Fully Air Conditioned - Master Bedroom",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 28500,
+        "period": "Monthly",
+        "raw": "EGP 28,500"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 185,
+      "compound": "El Khamayel Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503453435.html",
+      "title": "Rof Furnished Studio for Rent – Beverly Hills, Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 3000,
+        "period": "Daily",
+        "raw": "EGP 3,000"
+      },
+      "property_type": "Studio",
+      "bedrooms": 1,
+      "bathrooms": 1,
+      "area_sqm": 120,
+      "compound": "Rof Furnished Studio for Rent – Beverly Hills",
+      "location": "Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503452767.html",
+      "title": "Empty apartment for rent, first occupancy, with super deluxe finishing, 170 sqm, located in the double-face phase in El Khamayel Compound, Sheikh Zaye",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 25000,
+        "period": "Monthly",
+        "raw": "EGP 25,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 170,
+      "compound": "El Khamayel Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503389194.html",
+      "title": "Furnished Apartment for Rent 130 sqm - Licensed - Fully Open Views",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 28000,
+        "period": "Monthly",
+        "raw": "EGP 28,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 130,
+      "compound": "Dar Misr",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503389397.html",
+      "title": "Sheikh Zayed Compound Al-Khamail Phase 4 Apartment for rent first tenant",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 19000,
+        "period": "Monthly",
+        "raw": "EGP 19,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 172,
+      "compound": null,
+      "location": "Sheikh Zayed Compound Al-Khamail Phase 4 Apartment for rent first tenant",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503458600.html",
+      "title": "Apartment for rent in Al-Khamail Compound, Elkhmayel, Sheikh Zayed (Al-Khamail)",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 22000,
+        "period": "Monthly",
+        "raw": "EGP 22,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 165,
+      "compound": "Apartment for rent in Al-Khamail Compound",
+      "location": "Elkhmayel, Sheikh Zayed (Al-Khamail)",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503106731.html",
+      "title": "ultra super-lux fully furnished 2BR apartment",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 4500,
+        "period": "Daily",
+        "raw": "EGP 4,500"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 140,
+      "compound": "Beverly Hills Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503211249.html",
+      "title": "Furnished apartment for rent in Al-Khamail Compound - Ground floor with garden",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 50000,
+        "period": "Monthly",
+        "raw": "EGP 50,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 180,
+      "compound": "El Khamayel Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503437441.html",
+      "title": "Apartment for rent with a super lux finish kitchen in Zayed Heights compound, Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 25000,
+        "period": "Monthly",
+        "raw": "EGP 25,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 200,
+      "compound": "Apartment for rent with a super lux finish kitchen in Zayed Heights compound",
+      "location": "Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503452553.html",
+      "title": "Apartment for rent, suitable for residential or administrative use.",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 17000,
+        "period": "Monthly",
+        "raw": "EGP 17,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "area_sqm": 170,
+      "compound": "3rd District",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503433178.html",
+      "title": "Furnished Apartment for Rent Behind Mall of Arabia – First Northern Touristic Area (Orchid District)",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 13000,
+        "period": "Monthly",
+        "raw": "EGP 13,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_sqm": 80,
+      "compound": "Waslet Dahshur",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503378057.html",
+      "title": "3 bedrooms Apartment for rent in Zed West- Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 3900,
+        "period": "Daily",
+        "raw": "EGP 3,900"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 165,
+      "compound": null,
+      "location": "3 bedrooms Apartment for rent in Zed West- Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503380206.html",
+      "title": "Furnished duplex for rent – 2 gardens – open views",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 40000,
+        "period": "Monthly",
+        "raw": "EGP 40,000"
+      },
+      "property_type": "Duplex",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area_sqm": 300,
+      "compound": "7th District",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503390984.html",
+      "title": "For Rent , furnished Apartment with ACS and a kitchen, in Zad West, Sheikh Zayed.",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 70000,
+        "period": "Monthly",
+        "raw": "EGP 70,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 160,
+      "compound": "For Rent",
+      "location": "furnished Apartment with ACS and a kitchen, in Zad West, Sheikh Zayed.",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503440609.html",
+      "title": "Al Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 30000,
+        "period": "Monthly",
+        "raw": "EGP 30,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "area_sqm": 230,
+      "compound": null,
+      "location": "Al Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502908449.html",
+      "title": "Furnished studio for daily rent only, suitable for families.",
+      "area": "sheikh_zayed",
+      "page": 4,
+      "price": {
+        "amount_egp": 3000,
+        "period": "Daily",
+        "raw": "EGP 3,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": null,
+      "area_sqm": 70,
+      "compound": "Sodic Westown Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:45"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503357123.html",
+      "title": "Furnished Apartment for Rent 200m with Master Bedroom & Dressing Room",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 55000,
+        "period": "Monthly",
+        "raw": "EGP 55,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 200,
+      "compound": "Zayed Regency Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503151912.html",
+      "title": "Daily rental apartment in El Gezira Residence, Beverly Hills, suitable for families elshikh zayed",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 7000,
+        "period": "Daily",
+        "raw": "EGP 7,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 220,
+      "compound": "Daily rental apartment in El Gezira Residence",
+      "location": "Beverly Hills, suitable for families elshikh zayed",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503365204.html",
+      "title": "2 bedrooms ,2 bathrooms,fully firnished in casa,Prime location in Sheikh Zayed close to all services",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 38000,
+        "period": "Monthly",
+        "raw": "EGP 38,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 120,
+      "compound": "2 bedrooms",
+      "location": "2 bathrooms, fully firnished in casa, Prime location in Sheikh Zayed close to all services",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503357272.html",
+      "title": "Furnished apartment in Sheikh Zayed for daily rent for families and households",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 5300,
+        "period": "Daily",
+        "raw": "EGP 5,300"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 161,
+      "compound": null,
+      "location": "Furnished apartment in Sheikh Zayed for daily rent for families and households",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503288187.html",
+      "title": "Ground floor apartment with a garden for rent in Al Khamayel Compound, Sheikh Zayed, furnished with hotel-style furniture.",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 28000,
+        "period": "Monthly",
+        "raw": "EGP 28,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 150,
+      "compound": "Ground floor apartment with a garden for rent in Al Khamayel Compound",
+      "location": "Sheikh Zayed, furnished with hotel-style furniture.",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502264794.html",
+      "title": "Furnished villa with a swimming pool for rent in Lagenda compound next to Spectra and Bucharest",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 150000,
+        "period": "Monthly",
+        "raw": "EGP 150,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 6,
+      "bathrooms": 4,
+      "area_sqm": 500,
+      "compound": "Legenda Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502895499.html",
+      "title": "Available for daily rent inside Al-Wiestown Compound for families",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 6500,
+        "period": "Daily",
+        "raw": "EGP 6,500"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 180,
+      "compound": "Sodic Westown Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502635509.html",
+      "title": "Villa for daily rent in Royal City Compound suitable for families",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 20000,
+        "period": "Daily",
+        "raw": "EGP 20,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 6,
+      "bathrooms": 5,
+      "area_sqm": 1994,
+      "compound": "Royal City Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503144494.html",
+      "title": "Daily rental apartment in Beverly Hills elshikh zayed suitable for families",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 6000,
+        "period": "Daily",
+        "raw": "EGP 6,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 220,
+      "compound": null,
+      "location": "Daily rental apartment in Beverly Hills elshikh zayed suitable for families",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503112843.html",
+      "title": "Apartment for daily rental suitable for families, with a master bedroom and a garden view of the landscape.",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 6500,
+        "period": "Daily",
+        "raw": "EGP 6,500"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 3,
+      "area_sqm": 220,
+      "compound": "One 16 Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502875062.html",
+      "title": "Daily rental apartment in Sheikh Zayed suitable for families elshikh zayed",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 5000,
+        "period": "Daily",
+        "raw": "EGP 5,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area_sqm": 139,
+      "compound": null,
+      "location": "Daily rental apartment in Sheikh Zayed suitable for families elshikh zayed",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503215958.html",
+      "title": "Apartment with kitchen and acs in Westown Sodic",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 37000,
+        "period": "Monthly",
+        "raw": "EGP 37,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "area_sqm": 143,
+      "compound": "Sodic Westown Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503082596.html",
+      "title": "Hotel Studio for Rent – Casa Beverly Hills Large terrace with golf & pool view Wi-Fi | Daily – Monthly – Yearly WhatsApp now",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 3500,
+        "period": "Daily",
+        "raw": "EGP 3,500"
+      },
+      "property_type": "Studio",
+      "bedrooms": 1,
+      "bathrooms": null,
+      "area_sqm": 170,
+      "compound": "Casa Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503396397.html",
+      "title": "Furnished Studio Apartment for Rent, 30m + Terrace - Open Views",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 25000,
+        "period": "Monthly",
+        "raw": "EGP 25,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": null,
+      "area_sqm": 30,
+      "compound": "Beverly Hills Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503009149.html",
+      "title": "A hotel apartment for rent in Beverly, daily and monthly in the Westown Hills compound for families",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 6000,
+        "period": "Daily",
+        "raw": "EGP 6,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "area_sqm": 212,
+      "compound": "The Courtyards Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503375076.html",
+      "title": "Apartment for rent in the Seventh District, Sheikh Zayed, suitable for residential or administrative use.",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 25000,
+        "period": "Monthly",
+        "raw": "EGP 25,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 225,
+      "compound": "Apartment for rent in the Seventh District",
+      "location": "Sheikh Zayed, suitable for residential or administrative use.",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503423724.html",
+      "title": "For Rent Exclusive Standalone Villa with Large Garden,and Pool Super Lux Fully Furnished with AC/S and Kitchen,Allegria ,El Sheikh Zayed One of the m",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 240000,
+        "period": "Monthly",
+        "raw": "EGP 240,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area_sqm": 450,
+      "compound": "For Rent Exclusive Standalone Villa with Large Garden",
+      "location": "and Pool Super Lux Fully Furnished with AC/S and Kitchen, Allegria, El Sheikh Zayed One of the m",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502040883.html",
+      "title": "Fully furnished and air-conditioned apartment for rent in the eighth district, the most upscale district of Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 34000,
+        "period": "Monthly",
+        "raw": "EGP 34,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "area_sqm": 220,
+      "compound": "Fully furnished and air-conditioned apartment for rent in the eighth district",
+      "location": "the most upscale district of Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503342257.html",
+      "title": "Furnished studio for rent ultra super lux at the lowest price in the Seventh District - Area 70 m - Al Sheikh Zayed",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 17000,
+        "period": "Monthly",
+        "raw": "EGP 17,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 1,
+      "bathrooms": null,
+      "area_sqm": 70,
+      "compound": null,
+      "location": "Furnished studio for rent ultra super lux at the lowest price in the Seventh District - Area 70 m - Al Sheikh Zayed",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503442154.html",
+      "title": "Furnished apartment for daily and monthly rent in Dar Misr Compound, Sheikh Zayed, Block 16",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 35000,
+        "period": "Monthly",
+        "raw": "EGP 35,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 130,
+      "compound": "Furnished apartment for daily and monthly rent in Dar Misr Compound",
+      "location": "Sheikh Zayed, Block 16",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503350837.html",
+      "title": "Apartment for rent in Sheikh Zayed, District 8",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 15000,
+        "period": "Monthly",
+        "raw": "EGP 15,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 1,
+      "area_sqm": 150,
+      "compound": "Apartment for rent in Sheikh Zayed",
+      "location": "District 8",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503343783.html",
+      "title": "Brand-new 145 sqm apartment for rent with fully open views",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 23000,
+        "period": "Monthly",
+        "raw": "EGP 23,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 3,
+      "bathrooms": 2,
+      "area_sqm": 145,
+      "compound": "VYE Sodic Compound",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-502875132.html",
+      "title": "Villa for daily rent for families, furnished hotel-style in Sheikh Zayed Palm Hills",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 17000,
+        "period": "Daily",
+        "raw": "EGP 17,000"
+      },
+      "property_type": "Villa",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area_sqm": 650,
+      "compound": "Villa for daily rent for families",
+      "location": "furnished hotel-style in Sheikh Zayed Palm Hills",
+      "scraped_at": "2026-05-05T08:47:50"
+    },
+    {
+      "url": "https://bayut.eg/en/property/details-503448985.html",
+      "title": "Licensed apartment for rent – suitable for residential or administrative use",
+      "area": "sheikh_zayed",
+      "page": 5,
+      "price": {
+        "amount_egp": 15000,
+        "period": "Monthly",
+        "raw": "EGP 15,000"
+      },
+      "property_type": "Apartment",
+      "bedrooms": 2,
+      "bathrooms": 1,
+      "area_sqm": 120,
+      "compound": "3rd District",
+      "location": "Sheikh Zayed, Giza",
+      "scraped_at": "2026-05-05T08:47:50"
+    }
+  ]
+}
