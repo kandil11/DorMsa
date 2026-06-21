@@ -1,98 +1,194 @@
-# 🏠 DorMsa — Premium Student Housing Marketplace
+# 🏠 DorMsa — Integrated Student Housing Portal & Java Routing Microservice
 
-DorMsa is a modern, premium SaaS-style student housing and accommodation marketplace. The platform bridges the gap between the energetic accessibility required by a student demographic and the high-end reliability of a premium real estate platform. Designed with a sleek, interactive UI utilizing **Glassmorphism** and **Modern SaaS** layout principles, DorMsa makes finding and managing student accommodation stress-free, secure, and intuitive.
+This repository contains the complete **DorMsa** platform: a hybrid, multi-language system designed for student housing booking, listings management, saved searches matching, and support ticket routing.
+
+It comprises:
+1. **React Single Page Application** (Interactive portal with roles for Students, Parents, Brokers, and Administrators, featuring inline OTP verification and ticket-reply tracking).
+2. **Node.js Express Backend** (REST API, MongoDB storage, Twilio SMS mock client, listing alert triggers, and Java API integration).
+3. **Java Companion Microservice** (Inversion of Control container, component-based message logs, SMS/OTP dashboard, automated ticket routing, and saved-search matching).
+4. **Egypt Real Estate Scraping Subsystem** (Python web scrapers and a lightweight Node/Express seeding interface to populate student listings).
 
 ---
 
-## 🏗️ Project Architecture
+## 📂 Project Folder Architecture & Code Catalog
 
-DorMsa is structured as a **monorepo** dividing the frontend application and the backend API service:
+Below is a detailed structural and functional guide to every subdirectory and its codebase responsibilities.
 
 ```
 DorMsa/
 ├── api/                    # Vercel serverless function entrypoint
-├── backend/                # Express API application
-│   ├── config/             # DB and configuration setups
-│   ├── controllers/        # Business logic controllers
-│   ├── middlewares/        # Authentication and error-handling middlewares
-│   ├── models/             # Mongoose database models
-│   ├── routes/             # Express API routes
-│   └── services/           # Background tasks and utility services
-├── frontend/               # React + Vite client application
-│   ├── public/             # Static assets
-│   └── src/                # React source code (components, hooks, pages, styles)
+├── backend/                # 🌐 Node.js Express Backend API
+│   ├── config/             # Database connections (MongoDB)
+│   ├── controllers/        # Request handlers (auth, tickets, listings)
+│   ├── middlewares/        # Security (JWT), upload, errors
+│   ├── models/             # Mongoose MongoDB schemas
+│   ├── routes/             # REST route definitions
+│   ├── services/           # Integrations (Java, Twilio SMS mock, SMTP)
+│   └── server.js           # Express App bootstrap
+├── frontend/               # 💻 React SPA (Vite + Tailwind CSS)
+│   ├── src/                # React application source code
+│   │   ├── App.jsx          # Client-side React Router mappings
+│   │   ├── components/      # Reusable UI & layout elements
+│   │   ├── context/         # Global states (Auth, Toast Notifications)
+│   │   ├── pages/           # Views (Public, Student, Broker, Admin)
+│   │   └── index.css        # Stylesheets
+│   └── package.json        # Frontend dependency configuration
+├── src/                    # ☕ Java Companion Microservice
+│   ├── Main.java           # Entry point & HTTP router
+│   ├── ioc/                # Custom IoC & DI Reflection Engine
+│   ├── gateway/            # Notification delivery port implementation
+│   ├── service/            # Business logic component implementations
+│   ├── api/                # REST controllers & Dashboard handlers
+│   └── model/              # Java Entity DTOs
+├── components.config       # Configuration assembly wiring for Java
 ├── vercel.json             # Vercel monorepo deployment orchestration
-└── package.json            # Monorepo task runner configuration
+├── package.json            # Monorepo task runner configuration
+└── ../egypt_real_estate/   # 🕷️ Web Scrapers & Property Database (Sibling Directory)
+    ├── scrapers/           # Python BeautifulSoup scraper scripts
+    ├── dashboard/          # Property data viewer and MongoDB seeder
+    └── data/               # Scraped raw/merged JSON files
 ```
 
 ---
 
-## ✨ Features Checklist
+## ☕ 1. Java Companion Microservice (`src/`)
 
-* **🔒 Secure Authentication & Roles**: Email-based signup/login with roles: `Student`, `Landlord / Property Manager`, and `Admin`.
-* **🔍 Advanced Property Search**: Filter listings by location, price, room types, amenities, and proximity to campuses.
-* **📅 Booking Requests**: Streamlined room/apartment reservation requests with live status tracking.
-* **💳 Payment Management**: Detailed transaction tracking and payment logs for bookings.
-* **💬 Support Ticket System**: Direct communication channel for students to resolve issues with administrators or hosts.
-* **🔔 Live Notifications**: Real-time updates on booking approvals, payment success, and support tickets.
-* **🛡️ Admin Dashboard & Auditing**: Control panel for administrators with detailed security audit logs.
+Builds upon **Component-Based Programming (CBP)** and a custom-made **Inversion of Control (IoC) Container** utilizing reflection to achieve dynamic dependency injection.
+
+### Inversion of Control Engine (`ioc/`)
+* 📄 **`ioc/annotations/Component.java`**: A custom annotation declaring a managed component bean.
+* 📄 **`ioc/annotations/Autowired.java`**: Declares a required port/dependency to be dynamically injected at runtime.
+* 📄 **`ioc/container/IoCContainer.java`**: Scans package components, processes properties from `components.config`, instantiates singletons, and performs DI wiring via reflection.
+
+### Message Delivery Components (`gateway/` & `service/`)
+* 📄 **`gateway/EmailGateway.java`**: Provided Interface defining SMTP or Mock mail deliveries.
+* 📄 **`gateway/MockEmailGateway.java`**: Concrete implementation printing emails to the console for testing.
+* 📄 **`gateway/SmtpEmailGateway.java`**: Concrete implementation simulating SMTP server hookups (`smtp.msa.edu.eg:587`).
+* 📄 **`service/NotificationService.java`**: Provided Interface coordinating user notification dispatches.
+* 📄 **`service/ConsoleNotificationService.java`**: Implementation resolving alerts and delegating to the injected `EmailGateway`.
+* 📄 **`service/MessageStoreService.java`**: Provided Interface logging notifications and tracking active OTPs.
+* 📄 **`service/SimpleMessageStoreService.java`**: In-memory thread-safe component. Employs a phone normalization algorithm (matching the last 11 digits) to bridge format mismatches.
+
+### Core Business Logic (`service/`)
+* 📄 **`service/SupportRouterService.java`**: Contract interface for support routing.
+* 📄 **`service/SimpleSupportRouterService.java`**: Processes incoming ticket categories and descriptions, routing them dynamically based on keywords (e.g., "Finance" for payment queries, "Tech Support" for bugs).
+* 📄 **`service/SavedSearchMatcherService.java`**: Contract for criteria matching.
+* 📄 **`service/SimpleSavedSearchMatcherService.java`**: Evaluates new listings against saved user search criteria (price, room type, distance from campus) and issues alerts on matching parameters.
+
+### HTTP APIs & Controllers (`api/` & `Main.java`)
+* 📄 **`api/TicketHttpHandler.java`**: Processes POST requests at `/api/support/route`.
+* 📄 **`api/SavedSearchHttpHandler.java`**: Processes listings and filters matching calculations.
+* 📄 **`api/SmsHttpHandler.java`**: Handles SMS send logs and OTP verification codes.
+* 📄 **`api/DashboardHttpHandler.java`**: Serves the live HTML dashboard UI and returns JSON updates via polling.
+* 📄 **`Main.java`**: Instantiates and boots the IoC Container, initializes the server, and routes endpoints on port `5002`.
 
 ---
 
-## 🛠️ Technology Stack
+## 🌐 2. Node.js Express Backend (`backend/`)
 
-* **Frontend**: React 19, Vite, Tailwind CSS, Framer Motion (Micro-animations), Lucide React, React Router Dom.
-* **Backend**: Node.js, Express, MongoDB (Mongoose ORM), JSON Web Tokens (JWT), Multer (Image upload handling).
-* **Database**: MongoDB (Dual DB integration for listings and main collections).
-* **Deployment**: Configured for instant deployment on Vercel with zero-cold-start optimization.
+Serves as the database connection broker and provides secure REST endpoints for the client-side React app.
+
+* 📄 **`backend/server.js`**: Application entry point. Configures middleware (CORS, JSON parsing), registers routes, and connects to MongoDB database instances.
+* 📁 **`backend/config/db.js`**: Sets up two distinct Mongoose database connections: one for the core portal (`dormsa`) and one for the scraper listings (`egypt_real_estate`).
+* 📁 **`backend/controllers/`**:
+  * 📄 **`authController.js`**: User registration, login verification, password resets, and student/broker ID uploads. Generates verification OTPs.
+  * 📄 **`supportController.js`**: Coordinates ticket creation and links directly to the Java REST API to route and update assignments in MongoDB.
+  * 📄 **`listingController.js`**: Manages listing actions, room bookings, and calls the Java saved-search engine to alert matching users.
+* 📁 **`backend/middlewares/`**:
+  * 📄 **`auth.js`**: Checks JWT auth tokens in request headers to authorize user accounts.
+  * 📄 **`roleCheck.js`**: Enforces path privileges for specific user categories (Admin/Broker/Student).
+  * 📄 **`upload.js`**: Configures Multer to store uploaded avatar images and identity documents.
+* 📁 **`backend/models/`**: Defines the Mongoose database schemas (`User.js`, `Listing.js`, `SupportTicket.js`, `Notification.js`, etc.).
+* 📁 **`backend/services/`**:
+  * 📄 **`javaServiceIntegration.js`**: Dispatches requests (tickets, listing matches, and SMS logs) to the Java companion microservice on port `5002`.
+  * 📄 **`smsService.js`**: A mock gateway simulating Twilio SMS deliveries. Sends OTP codes and redirects them to the Java service for logs.
 
 ---
 
-## 🚀 Getting Started
+## 💻 3. React Frontend (`frontend/`)
 
-Follow these steps to run DorMsa locally on your development machine.
+A React-based Single Page Application (SPA) styled with custom Tailwind CSS interfaces and smooth Framer Motion animations.
+
+* 📄 **`frontend/src/App.jsx`**: Global routing mapping. Separates public pages from role-secured dashboards (Student, Broker, and Admin dashboards) using layout wrappers.
+* 📁 **`frontend/src/context/`**:
+  * 📄 **`AuthContext.jsx`**: Handles login, registration, verify, and resend OTP actions. Shares session tokens globally.
+  * 📄 **`NotificationContext.jsx`**: Custom Toast notification provider showing premium animated alert cards.
+* 📁 **`frontend/src/layouts/`**:
+  * 📄 **`MainLayout.jsx`**: Global layout containing the public navbar and footer.
+  * 📄 **`DashboardLayout.jsx`**: Sidebar layout for authenticated dashboards. Features a prominent, persistent **Phone Verification Required** warning banner for unverified accounts, enabling users to request and input OTP codes directly.
+* 📁 **`frontend/src/pages/`**:
+  * 📁 **`public/`**: Landing page, property catalogs, registration forms with inline OTP cards, and password recovery pages.
+  * 📁 **`student/`**: Displays user profile stats, saved search lists, payment/billing receipt histories, and support ticket dashboards (featuring routing status cards directly populated by the Java routing engine).
+  * 📁 **`broker/`**: Add/edit listing forms, message modules, broker-verification badge uploads, and listing analytics.
+  * 📁 **`admin/`**: Audit logs tracker, system analytics, verification approvals, and user accounts moderator.
+
+---
+
+## 🕷️ 4. Egypt Real Estate Scraper Subsystem (`../egypt_real_estate/`)
+
+Designed to crawl local rental providers and feed authentic listing options into the housing database.
+
+* 📁 **`scrapers/`**: Python crawler scripts powered by BeautifulSoup to target major property aggregates:
+  * 📄 **`bayut_scraper.py`** & **`dubizzle_scraper.py`**: Web-scraping properties, extraction of layout grids, prices, and locations.
+  * 📄 **`refresh_and_merge.py`**: Merges raw scrapes into a clean, unified JSON dataset.
+* 📁 **`dashboard/`**:
+  * 📄 **`server.js`**: A lightweight Node.js/Express tool mapping scraped files and hosting a viewer page to browse scraped options.
+  * 📄 **`seed.js`**: A script that imports the merged JSON dataset directly into the MongoDB database (`egypt_real_estate.listings`), allowing the DorMsa portal to display real listings.
+
+---
+
+## 🚀 Getting Started & Local Setup
+
+Follow these steps to run the complete DorMsa platform locally.
 
 ### Prerequisites
-* [Node.js](https://nodejs.org) (v18 or higher recommended)
+* [Node.js](https://nodejs.org) (v18 or higher)
+* [Java Development Kit (JDK)](https://www.oracle.com/java/technologies/downloads/) (v17 or higher)
 * [MongoDB](https://www.mongodb.com/) (running instance or Atlas connection string)
+* [Python 3](https://www.python.org/) (for running web scrapers)
 
-### 1. Clone & Install Dependencies
-From the root of the project, run:
+### 1. Install Dependencies
+From the root of the `DorMsa` directory, run:
 ```bash
-# Install monorepo root dependencies
+# Install root, frontend, and backend packages
 npm install
-
-# Install frontend dependencies
 npm run install-frontend --prefix frontend || (cd frontend && npm install)
-
-# Install backend dependencies
 npm run install-backend --prefix backend || (cd backend && npm install)
 ```
 
-### 2. Configuration (`.env`)
+### 2. Configure Environment variables
 Create a `.env` file inside the `backend/` directory:
 ```env
 PORT=5001
 MONGODB_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
-# Optional configurations
-NODE_ENV=development
+# Connection to the Java Companion Service
+JAVA_SERVICE_URL=http://localhost:5002
 ```
 
-### 3. Running Locally
-Launch both the frontend client and the backend server concurrently with a single command from the root directory:
+### 3. Build & Run Java companion microservice
+Compile and run the Java IoC container and microservice:
+```bash
+# Compile and run Main.java
+javac -d bin src/**/*.java src/*.java
+java -cp bin Main
+```
+The Java service will start listening on port `5002`.
+
+### 4. Running Web Client & Express API
+Start both the React client and Node.js server concurrently from the root directory:
 ```bash
 npm run dev
 ```
-* **Frontend client** runs on: `http://localhost:5173`
-* **Backend API** runs on: `http://localhost:5001`
+* **Frontend application**: `http://localhost:5173`
+* **Express API**: `http://localhost:5001`
 
 ---
 
-## 🌐 Deployment to Vercel
+## 🌐 Vercel Deployment
 
-DorMsa is pre-configured to build and run on Vercel with a single click.
+DorMsa is optimized for serverless deployments on Vercel:
 
-1. **Import the repository** into your Vercel Dashboard.
-2. **Environment Variables**: Add your backend environment variables (like `MONGODB_URI` and `JWT_SECRET`) in Vercel's Project Settings under "Environment Variables".
-3. **Deploy**: Vercel will build the React frontend using Vite and host the Express server under serverless endpoints (`/api/*`) using the provided `vercel.json` configurations.
+1. Import the repository into Vercel.
+2. Vercel automatically deploys the React frontend statically and compiles the Express backend (`api/index.js`) as a serverless function under `/api/*` endpoints.
+3. Configure the environment variables (`MONGODB_URI`, `JWT_SECRET`) in your Vercel Dashboard.
